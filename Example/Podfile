@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SNPScene_Example' do
+  pod 'SNPScene', :path => '../'
+
+  target 'SNPScene_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
