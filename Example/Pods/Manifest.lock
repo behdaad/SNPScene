@@ -1,0 +1,28 @@
+PODS:
+  - LifetimeTracker (1.6.0)
+  - SNPScene (0.1.0):
+    - LifetimeTracker
+
+DEPENDENCIES:
+  - LifetimeTracker (from `https://github.com/krzysztofzablocki/LifetimeTracker.git`, branch `master`)
+  - SNPScene (from `../`)
+
+EXTERNAL SOURCES:
+  LifetimeTracker:
+    :branch: master
+    :git: https://github.com/krzysztofzablocki/LifetimeTracker.git
+  SNPScene:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  LifetimeTracker:
+    :commit: 016a91618b9fcf5a46ad31c099f83b0321a7f2f5
+    :git: https://github.com/krzysztofzablocki/LifetimeTracker.git
+
+SPEC CHECKSUMS:
+  LifetimeTracker: 8b7f2979fa70a41e9aaff63d158cae7a027eef10
+  SNPScene: bb55e892e3aa90731b52387fb9ec8cca4e6abec4
+
+PODFILE CHECKSUM: dd55a42927bb0a0f4b5e74c8e2f6e75ba679f5a6
+
+COCOAPODS: 1.6.0.beta.2

@@ -1,0 +1,1182 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01880EAD46EA18A80307AF6ED0D9A8A3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46F33EEAF1122CA70D6C849A1E28529A /* Localizable.strings */; };
+		04595A0552306391119C0F0D9A00815E /* SNPInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C877B864887600D045BD4406CC172E8 /* SNPInteractor.swift */; };
+		0529E00CDFF1F20C9ABEBA70EC2F736B /* LifetimeTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E23D8314C15FF481F1E2FFECFD0BD1E /* LifetimeTracker-dummy.m */; };
+		1656AEA8BEED9325B2C4D5F6EEC9A971 /* LifetimeTrackerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A8EB21C0094E2D2DD489E93A144B3 /* LifetimeTrackerListViewController.swift */; };
+		18215C2ED5671E78D3878343ED13265D /* DashboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 343E679ADB130D6B3ACCC58A34951E34 /* DashboardTableViewCell.xib */; };
+		19CDAE0E6E022DF376215F777B7FA442 /* DashboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF1F5EF0BAB3B9109627FB587CA6A4 /* DashboardTableViewController.swift */; };
+		25D7C0FAF83BFF4924CC411B935DB8C2 /* BarDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136E725E60036772622D8EC80B43E31D /* BarDashboardViewController.swift */; };
+		2FF12C647A98F7A29ED94D610212C785 /* LifetimeTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C3CD642D3CBA88880297ED2764F39FE /* LifetimeTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37F619D8C99A0F0CFC4C257FBEECB49C /* DashboardTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ED891BA06B8E6C9425A457BC14D7E97 /* DashboardTableViewHeaderView.xib */; };
+		391D9ADC75FE204C7F024324FBD2C071 /* LifetimeTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B790425C952D08FB0557C77AC5F887F /* LifetimeTracker.swift */; };
+		3B1A8CE5FEB0A051EFAA37471235010A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718BBA61E057FA5D4427A9ABB0B792BC /* Foundation.framework */; };
+		3D289618DA42755CD8E8BC8A9C3049EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718BBA61E057FA5D4427A9ABB0B792BC /* Foundation.framework */; };
+		414F7635E15C231B74A9144BE37599F4 /* DeallocTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B453DC614E218A072C114A2B53924F9 /* DeallocTracker.swift */; };
+		46E7B638017370229EA735FF2FDCBBB1 /* Extensions+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BEE2742C698EFB9C167E6F38EF1D5 /* Extensions+UIKit.swift */; };
+		4E6AB28921950BF89E4D84CD329ED528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718BBA61E057FA5D4427A9ABB0B792BC /* Foundation.framework */; };
+		53AF2E1768656C1370148DBC8ED0B8CA /* SNPRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259583C7034A9AF5C1D5D9525AE6BB87 /* SNPRouter.swift */; };
+		578AE906A5B3FCA963BCF9399B6A8324 /* BarDashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969D17747CDC73DB27F9DE294B58DD04 /* BarDashboard.storyboard */; };
+		58FA05E69691E3AD0315167E72DDA83C /* CircularDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C7EE3E140ECAE7B3A669A605F6C70E /* CircularDashboardViewController.swift */; };
+		5E0DA688F2D9B1EB35D86ACBFF512EA2 /* CircularDashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D5A84AC75846F494C02F64F544550E /* CircularDashboard.storyboard */; };
+		6455B16C7CC7418B3054F82CD00F0BFD /* Pods-SNPScene_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B21A17681EC487397055204C87DB4E5B /* Pods-SNPScene_Tests-dummy.m */; };
+		6D039D2B5742EB0751ECA00B8ABB0583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718BBA61E057FA5D4427A9ABB0B792BC /* Foundation.framework */; };
+		7716B7BF807D30D89BEA84441DA8697F /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5A241B8EB246D2F22058B86197D63 /* DashboardTableViewCell.swift */; };
+		7EFEC8576FA70D5B3318338F81397240 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42F843F1817376157CF695A45042155 /* UIKit.framework */; };
+		83C2E4DDC077EE27B399B14689C17E38 /* Pods-SNPScene_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7679F8A4F86B5ED5A4599F109412CE1 /* Pods-SNPScene_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A5594B77026DC1B7292CE9EB507F7E4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BE7B7BAEB0323102A9DC815363A456 /* Constants.swift */; };
+		8E941D8E84A1BFB68B4F1CE47DAF554F /* Pods-SNPScene_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37702AAD63CFF2C5AFD78B6FCF261222 /* Pods-SNPScene_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EC7633DA982489CABC7D8617C5BEA56 /* SNPScene-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7F632058FBF8F831B35B701CA159AE /* SNPScene-dummy.m */; };
+		9F8039598203EEED3FE65976436C3ACE /* SNPPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534AD4BA3A1567B6800ACF860E05CC6C /* SNPPresenter.swift */; };
+		A081B0FD77F6A435F51975CAB8881060 /* SNPConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139FC8FC3C21FC8B3E6C0226DF335086 /* SNPConfigurator.swift */; };
+		A5438E8863C2133253C077FADA0DE0E6 /* SNPScene-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 242525F18154AC4E6A060C2BB7124E87 /* SNPScene-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA822BA958FB3B85EDA03EEFAE2EDB1C /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82870ED6EACD10A84A2BDA2BB485714 /* SettingsManager.swift */; };
+		AC8925863B187FF5B6E90DCC344CD24D /* DashboardTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6DCD297007535C3C16799A3E353721 /* DashboardTableView.storyboard */; };
+		B9DF86405947403C9EC77121027F63E7 /* SNPProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA25EEEC6AF70551681F307586A71B1 /* SNPProtocols.swift */; };
+		BE661B38B7D7AD86C0D27AEB2FF70C72 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD6AF3E67DF5ACE11A887E43FABDDA /* Extensions.swift */; };
+		D4B12FD75647DE205FFE7CA46DF3546F /* DashboardTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7C439211A03F24655B3EC83485699 /* DashboardTableViewHeaderView.swift */; };
+		D5B466999AA9B69818F8C5AA8DF2E0C8 /* LifetimeTracker+DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63347A0625D8894534652E16017AEBCF /* LifetimeTracker+DashboardView.swift */; };
+		D997C8000383739C55548D8C613EFE1A /* SNPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2768A5198FA1F4931297B1DE5775D /* SNPViewController.swift */; };
+		DE2FD039FF55F7C0E60851FCF7515F90 /* Constants+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54104A6F06B815EA738F75CB32723174 /* Constants+UIKit.swift */; };
+		E0E960721BFDBBB739E8104054DD57D9 /* Pods-SNPScene_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0062515D362930E8347033D52491B59 /* Pods-SNPScene_Example-dummy.m */; };
+		E52721AEF1EADAC6769A1BB2C3BF1767 /* LifetimeTracker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E058D762DB0C9D358F9E583AB5A4CF6B /* LifetimeTracker.bundle */; };
+		F066B61A51058F14CF0A7725FE09B555 /* LifetimeTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1179D8DFC9B0594FD901714827923F66 /* LifetimeTracker.framework */; };
+		F476E871CFD938774C9F192C2E0B8C20 /* HideOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D672A8EEDE22D172EEA79F0698D47C /* HideOption.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7578C6B405852E12D02595D48B42EA15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1D1B1844015587D3E5911FB41C687C;
+			remoteInfo = LifetimeTracker;
+		};
+		AA05A534C463377C87E59D42E54B33DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14981742D0D03978CBD7D85D8A9F7FCA;
+			remoteInfo = "Pods-SNPScene_Example";
+		};
+		B8E88CBDA85F0499A2054F315ED14940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED88E206EFA4CEFF02AB0BA6DAE105A;
+			remoteInfo = "LifetimeTracker-LifetimeTracker";
+		};
+		ED0D51D10F41385217497E47DAB61C65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1D1B1844015587D3E5911FB41C687C;
+			remoteInfo = LifetimeTracker;
+		};
+		FD45E696B6EA84BCEF7D239FFB157899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EEB48AB0281FD3492A12A4854F5C230;
+			remoteInfo = SNPScene;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052D00EBE1CC0F2C5DB42F79634DB3D4 /* SNPScene-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SNPScene-Info.plist"; sourceTree = "<group>"; };
+		0EF5A241B8EB246D2F22058B86197D63 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DashboardTableViewCell.swift; path = Sources/UI/DashboardTableView/DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		1179D8DFC9B0594FD901714827923F66 /* LifetimeTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LifetimeTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		136E725E60036772622D8EC80B43E31D /* BarDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarDashboardViewController.swift; path = Sources/UI/BarDashboard/BarDashboardViewController.swift; sourceTree = "<group>"; };
+		139FC8FC3C21FC8B3E6C0226DF335086 /* SNPConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNPConfigurator.swift; path = SNPScene/SNPConfigurator.swift; sourceTree = "<group>"; };
+		19BE7B7BAEB0323102A9DC815363A456 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Sources/Constants.swift; sourceTree = "<group>"; };
+		1A6DCD297007535C3C16799A3E353721 /* DashboardTableView.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = DashboardTableView.storyboard; path = Sources/UI/DashboardTableView/DashboardTableView.storyboard; sourceTree = "<group>"; };
+		1F891DCB7BD39DAE6B83B6B248B62F6D /* Pods-SNPScene_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNPScene_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		242525F18154AC4E6A060C2BB7124E87 /* SNPScene-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNPScene-umbrella.h"; sourceTree = "<group>"; };
+		259583C7034A9AF5C1D5D9525AE6BB87 /* SNPRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNPRouter.swift; path = SNPScene/SNPRouter.swift; sourceTree = "<group>"; };
+		27326BC110A16C8F3D9B8767A5EDCF94 /* Pods-SNPScene_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNPScene_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2B453DC614E218A072C114A2B53924F9 /* DeallocTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeallocTracker.swift; path = Sources/DeallocTracker.swift; sourceTree = "<group>"; };
+		31D5A84AC75846F494C02F64F544550E /* CircularDashboard.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = CircularDashboard.storyboard; path = Sources/UI/CircularDashboard/CircularDashboard.storyboard; sourceTree = "<group>"; };
+		343E679ADB130D6B3ACCC58A34951E34 /* DashboardTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DashboardTableViewCell.xib; path = Sources/UI/DashboardTableView/DashboardTableViewCell.xib; sourceTree = "<group>"; };
+		34C7EE3E140ECAE7B3A669A605F6C70E /* CircularDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularDashboardViewController.swift; path = Sources/UI/CircularDashboard/CircularDashboardViewController.swift; sourceTree = "<group>"; };
+		37702AAD63CFF2C5AFD78B6FCF261222 /* Pods-SNPScene_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SNPScene_Example-umbrella.h"; sourceTree = "<group>"; };
+		3C877B864887600D045BD4406CC172E8 /* SNPInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNPInteractor.swift; path = SNPScene/SNPInteractor.swift; sourceTree = "<group>"; };
+		3E20CAF2F2CB430179D49B8DD8311FA3 /* SNPScene.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SNPScene.xcconfig; sourceTree = "<group>"; };
+		4076C20DDCB347B6E64E56B0802D1DC7 /* Pods-SNPScene_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNPScene_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		45D079B6B8E56D1A53CEC65D4EB1E7ED /* SNPScene-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNPScene-prefix.pch"; sourceTree = "<group>"; };
+		46F33EEAF1122CA70D6C849A1E28529A /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = Sources/Localizable.strings; sourceTree = "<group>"; };
+		4C3CD642D3CBA88880297ED2764F39FE /* LifetimeTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LifetimeTracker-umbrella.h"; sourceTree = "<group>"; };
+		4E7F632058FBF8F831B35B701CA159AE /* SNPScene-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SNPScene-dummy.m"; sourceTree = "<group>"; };
+		534AD4BA3A1567B6800ACF860E05CC6C /* SNPPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNPPresenter.swift; path = SNPScene/SNPPresenter.swift; sourceTree = "<group>"; };
+		54104A6F06B815EA738F75CB32723174 /* Constants+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Constants+UIKit.swift"; path = "Sources/UI/Constants+UIKit.swift"; sourceTree = "<group>"; };
+		58F2768A5198FA1F4931297B1DE5775D /* SNPViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNPViewController.swift; path = SNPScene/SNPViewController.swift; sourceTree = "<group>"; };
+		5A6A8EB21C0094E2D2DD489E93A144B3 /* LifetimeTrackerListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LifetimeTrackerListViewController.swift; path = Sources/UI/LifetimeTrackerListViewController.swift; sourceTree = "<group>"; };
+		5C06ECA42AC3CF8AD4AD5F1942E2968A /* LifetimeTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LifetimeTracker.modulemap; sourceTree = "<group>"; };
+		5ED891BA06B8E6C9425A457BC14D7E97 /* DashboardTableViewHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DashboardTableViewHeaderView.xib; path = Sources/UI/DashboardTableView/DashboardTableViewHeaderView.xib; sourceTree = "<group>"; };
+		5FAD6AF3E67DF5ACE11A887E43FABDDA /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		63347A0625D8894534652E16017AEBCF /* LifetimeTracker+DashboardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LifetimeTracker+DashboardView.swift"; path = "Sources/UI/LifetimeTracker+DashboardView.swift"; sourceTree = "<group>"; };
+		69CAA5B5BC1633760F260725798B0129 /* Pods_SNPScene_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNPScene_Tests.framework; path = "Pods-SNPScene_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		718BBA61E057FA5D4427A9ABB0B792BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75B4D8B9E3B083D19CA21452672C6838 /* SNPScene.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SNPScene.modulemap; sourceTree = "<group>"; };
+		789DD03E862866C468449510E80010BA /* Pods-SNPScene_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNPScene_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		81D672A8EEDE22D172EEA79F0698D47C /* HideOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HideOption.swift; path = Sources/UI/HideOption.swift; sourceTree = "<group>"; };
+		8B790425C952D08FB0557C77AC5F887F /* LifetimeTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LifetimeTracker.swift; path = Sources/LifetimeTracker.swift; sourceTree = "<group>"; };
+		8C4F74F372B3C23AD1229CCEF567C71B /* SNPScene.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SNPScene.framework; path = SNPScene.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E23D8314C15FF481F1E2FFECFD0BD1E /* LifetimeTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LifetimeTracker-dummy.m"; sourceTree = "<group>"; };
+		90E37252C5D9F02615D78425D5D48107 /* LifetimeTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LifetimeTracker-Info.plist"; sourceTree = "<group>"; };
+		92846D173453045F3C354D62D3D13A1C /* Pods-SNPScene_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNPScene_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		94230109276E6280CF7F2BE795F85D23 /* LifetimeTracker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LifetimeTracker.xcconfig; sourceTree = "<group>"; };
+		962AB30366D95D317AE5B924591193E7 /* Pods-SNPScene_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SNPScene_Tests.modulemap"; sourceTree = "<group>"; };
+		969D17747CDC73DB27F9DE294B58DD04 /* BarDashboard.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = BarDashboard.storyboard; path = Sources/UI/BarDashboard/BarDashboard.storyboard; sourceTree = "<group>"; };
+		A0062515D362930E8347033D52491B59 /* Pods-SNPScene_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNPScene_Example-dummy.m"; sourceTree = "<group>"; };
+		A7783452C61A0D473E6C06C15C4F2605 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A82870ED6EACD10A84A2BDA2BB485714 /* SettingsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsManager.swift; path = Sources/SettingsManager.swift; sourceTree = "<group>"; };
+		AB7C435E01F15D48004EAEAFC3BA4439 /* Pods-SNPScene_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SNPScene_Example.modulemap"; sourceTree = "<group>"; };
+		AE9F1BFEF04578B006DEB0CA96FE7FA3 /* Pods_SNPScene_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNPScene_Example.framework; path = "Pods-SNPScene_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B21A17681EC487397055204C87DB4E5B /* Pods-SNPScene_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNPScene_Tests-dummy.m"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B42F843F1817376157CF695A45042155 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B4B6F1594331CBF8A2C72F797A566B4F /* LifetimeTracker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LifetimeTracker-prefix.pch"; sourceTree = "<group>"; };
+		B7679F8A4F86B5ED5A4599F109412CE1 /* Pods-SNPScene_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SNPScene_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B94BEE2742C698EFB9C167E6F38EF1D5 /* Extensions+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Extensions+UIKit.swift"; path = "Sources/UI/Extensions+UIKit.swift"; sourceTree = "<group>"; };
+		BDDF1F5EF0BAB3B9109627FB587CA6A4 /* DashboardTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DashboardTableViewController.swift; path = Sources/UI/DashboardTableView/DashboardTableViewController.swift; sourceTree = "<group>"; };
+		C0F39916EEA870F29B5E838B2BFD557F /* LifetimeTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LifetimeTracker.framework; path = LifetimeTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25B308A38EB7A8C377BAACDF926B595 /* Pods-SNPScene_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNPScene_Example-Info.plist"; sourceTree = "<group>"; };
+		C2D7C439211A03F24655B3EC83485699 /* DashboardTableViewHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DashboardTableViewHeaderView.swift; path = Sources/UI/DashboardTableView/DashboardTableViewHeaderView.swift; sourceTree = "<group>"; };
+		CA9C08F28EA659EE8364FFDBAA488B11 /* Pods-SNPScene_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNPScene_Tests-Info.plist"; sourceTree = "<group>"; };
+		D7F998D70A0B6ACB9D0A28952D5812DF /* ResourceBundle-LifetimeTracker-LifetimeTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LifetimeTracker-LifetimeTracker-Info.plist"; sourceTree = "<group>"; };
+		E058D762DB0C9D358F9E583AB5A4CF6B /* LifetimeTracker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LifetimeTracker.bundle; path = "LifetimeTracker-LifetimeTracker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C33BCF5016578C91FC6DD851F5B2B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E0E0F961CC7B47EF813FC6FCD46F25AD /* SNPScene.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SNPScene.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E36CC4C68DD73D8C7501845EB6F562DE /* Pods-SNPScene_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNPScene_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E53054E78A19BFA65E852142848A7165 /* Pods-SNPScene_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNPScene_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EDA1CB3B851CE3A7BB2762BAD138884D /* Pods-SNPScene_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNPScene_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3C325E8DAC20A2B59DD1E6C0610C7E5 /* Pods-SNPScene_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNPScene_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEA25EEEC6AF70551681F307586A71B1 /* SNPProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNPProtocols.swift; path = SNPScene/SNPProtocols.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26E1EB7ABA238ACC4BA4292C8DA4E7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1A8CE5FEB0A051EFAA37471235010A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A144A9F24C3601385CDC3F81CCF9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D039D2B5742EB0751ECA00B8ABB0583 /* Foundation.framework in Frameworks */,
+				7EFEC8576FA70D5B3318338F81397240 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5457C490C8FAC801D19A3A66919F3487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B1707FF84007DA6AF6256979FEC54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6AB28921950BF89E4D84CD329ED528 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D5E45E2CEF608691F9131F743B9934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D289618DA42755CD8E8BC8A9C3049EE /* Foundation.framework in Frameworks */,
+				F066B61A51058F14CF0A7725FE09B555 /* LifetimeTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0140BC85B1D9A19C400C197C7C744253 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1179D8DFC9B0594FD901714827923F66 /* LifetimeTracker.framework */,
+				CF0D28BE4E1B473636605BCBC2B0CEEB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02FE2C653DA49225299B0AE8549B0635 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C06ECA42AC3CF8AD4AD5F1942E2968A /* LifetimeTracker.modulemap */,
+				94230109276E6280CF7F2BE795F85D23 /* LifetimeTracker.xcconfig */,
+				8E23D8314C15FF481F1E2FFECFD0BD1E /* LifetimeTracker-dummy.m */,
+				90E37252C5D9F02615D78425D5D48107 /* LifetimeTracker-Info.plist */,
+				B4B6F1594331CBF8A2C72F797A566B4F /* LifetimeTracker-prefix.pch */,
+				4C3CD642D3CBA88880297ED2764F39FE /* LifetimeTracker-umbrella.h */,
+				D7F998D70A0B6ACB9D0A28952D5812DF /* ResourceBundle-LifetimeTracker-LifetimeTracker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LifetimeTracker";
+			sourceTree = "<group>";
+		};
+		0DECB3B3DCD9655C1A8046F02DF90D4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E925BC09F1A8D132B8C3C457F39B1D52 /* LifetimeTracker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1F48F87C130C027C339BCFA628F13323 /* Pods-SNPScene_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				962AB30366D95D317AE5B924591193E7 /* Pods-SNPScene_Tests.modulemap */,
+				92846D173453045F3C354D62D3D13A1C /* Pods-SNPScene_Tests-acknowledgements.markdown */,
+				E36CC4C68DD73D8C7501845EB6F562DE /* Pods-SNPScene_Tests-acknowledgements.plist */,
+				B21A17681EC487397055204C87DB4E5B /* Pods-SNPScene_Tests-dummy.m */,
+				CA9C08F28EA659EE8364FFDBAA488B11 /* Pods-SNPScene_Tests-Info.plist */,
+				B7679F8A4F86B5ED5A4599F109412CE1 /* Pods-SNPScene_Tests-umbrella.h */,
+				F3C325E8DAC20A2B59DD1E6C0610C7E5 /* Pods-SNPScene_Tests.debug.xcconfig */,
+				789DD03E862866C468449510E80010BA /* Pods-SNPScene_Tests.release.xcconfig */,
+			);
+			name = "Pods-SNPScene_Tests";
+			path = "Target Support Files/Pods-SNPScene_Tests";
+			sourceTree = "<group>";
+		};
+		248E9E82350A532F8544390F61995E9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				969D17747CDC73DB27F9DE294B58DD04 /* BarDashboard.storyboard */,
+				31D5A84AC75846F494C02F64F544550E /* CircularDashboard.storyboard */,
+				1A6DCD297007535C3C16799A3E353721 /* DashboardTableView.storyboard */,
+				343E679ADB130D6B3ACCC58A34951E34 /* DashboardTableViewCell.xib */,
+				5ED891BA06B8E6C9425A457BC14D7E97 /* DashboardTableViewHeaderView.xib */,
+				46F33EEAF1122CA70D6C849A1E28529A /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3D7DC4C5C42D6145FF08747AAF7BDE01 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E0C33BCF5016578C91FC6DD851F5B2B3 /* LICENSE */,
+				A7783452C61A0D473E6C06C15C4F2605 /* README.md */,
+				E0E0F961CC7B47EF813FC6FCD46F25AD /* SNPScene.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				E599062C91FF2C9A43C84C0DB94F148C /* Development Pods */,
+				0140BC85B1D9A19C400C197C7C744253 /* Frameworks */,
+				0DECB3B3DCD9655C1A8046F02DF90D4C /* Pods */,
+				ADB7D68ABF9CCEC3F9120E49DBAC44DE /* Products */,
+				D50C772506A45460789CD696A0C68F76 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		915BFC4DA58192B1228EA9414ABC6562 /* Pods-SNPScene_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AB7C435E01F15D48004EAEAFC3BA4439 /* Pods-SNPScene_Example.modulemap */,
+				1F891DCB7BD39DAE6B83B6B248B62F6D /* Pods-SNPScene_Example-acknowledgements.markdown */,
+				EDA1CB3B851CE3A7BB2762BAD138884D /* Pods-SNPScene_Example-acknowledgements.plist */,
+				A0062515D362930E8347033D52491B59 /* Pods-SNPScene_Example-dummy.m */,
+				27326BC110A16C8F3D9B8767A5EDCF94 /* Pods-SNPScene_Example-frameworks.sh */,
+				C25B308A38EB7A8C377BAACDF926B595 /* Pods-SNPScene_Example-Info.plist */,
+				37702AAD63CFF2C5AFD78B6FCF261222 /* Pods-SNPScene_Example-umbrella.h */,
+				4076C20DDCB347B6E64E56B0802D1DC7 /* Pods-SNPScene_Example.debug.xcconfig */,
+				E53054E78A19BFA65E852142848A7165 /* Pods-SNPScene_Example.release.xcconfig */,
+			);
+			name = "Pods-SNPScene_Example";
+			path = "Target Support Files/Pods-SNPScene_Example";
+			sourceTree = "<group>";
+		};
+		ADB7D68ABF9CCEC3F9120E49DBAC44DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E058D762DB0C9D358F9E583AB5A4CF6B /* LifetimeTracker.bundle */,
+				C0F39916EEA870F29B5E838B2BFD557F /* LifetimeTracker.framework */,
+				AE9F1BFEF04578B006DEB0CA96FE7FA3 /* Pods_SNPScene_Example.framework */,
+				69CAA5B5BC1633760F260725798B0129 /* Pods_SNPScene_Tests.framework */,
+				8C4F74F372B3C23AD1229CCEF567C71B /* SNPScene.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B02DA61AD01D2E4BA612B88202FB60D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75B4D8B9E3B083D19CA21452672C6838 /* SNPScene.modulemap */,
+				3E20CAF2F2CB430179D49B8DD8311FA3 /* SNPScene.xcconfig */,
+				4E7F632058FBF8F831B35B701CA159AE /* SNPScene-dummy.m */,
+				052D00EBE1CC0F2C5DB42F79634DB3D4 /* SNPScene-Info.plist */,
+				45D079B6B8E56D1A53CEC65D4EB1E7ED /* SNPScene-prefix.pch */,
+				242525F18154AC4E6A060C2BB7124E87 /* SNPScene-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SNPScene";
+			sourceTree = "<group>";
+		};
+		BFBBCDC76014BADA8EB9DAD6AFD5CCA3 /* SNPScene */ = {
+			isa = PBXGroup;
+			children = (
+				139FC8FC3C21FC8B3E6C0226DF335086 /* SNPConfigurator.swift */,
+				3C877B864887600D045BD4406CC172E8 /* SNPInteractor.swift */,
+				534AD4BA3A1567B6800ACF860E05CC6C /* SNPPresenter.swift */,
+				FEA25EEEC6AF70551681F307586A71B1 /* SNPProtocols.swift */,
+				259583C7034A9AF5C1D5D9525AE6BB87 /* SNPRouter.swift */,
+				58F2768A5198FA1F4931297B1DE5775D /* SNPViewController.swift */,
+				3D7DC4C5C42D6145FF08747AAF7BDE01 /* Pod */,
+				B02DA61AD01D2E4BA612B88202FB60D6 /* Support Files */,
+			);
+			name = SNPScene;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF0D28BE4E1B473636605BCBC2B0CEEB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				718BBA61E057FA5D4427A9ABB0B792BC /* Foundation.framework */,
+				B42F843F1817376157CF695A45042155 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D50C772506A45460789CD696A0C68F76 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				915BFC4DA58192B1228EA9414ABC6562 /* Pods-SNPScene_Example */,
+				1F48F87C130C027C339BCFA628F13323 /* Pods-SNPScene_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E599062C91FF2C9A43C84C0DB94F148C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFBBCDC76014BADA8EB9DAD6AFD5CCA3 /* SNPScene */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E925BC09F1A8D132B8C3C457F39B1D52 /* LifetimeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				136E725E60036772622D8EC80B43E31D /* BarDashboardViewController.swift */,
+				34C7EE3E140ECAE7B3A669A605F6C70E /* CircularDashboardViewController.swift */,
+				19BE7B7BAEB0323102A9DC815363A456 /* Constants.swift */,
+				54104A6F06B815EA738F75CB32723174 /* Constants+UIKit.swift */,
+				0EF5A241B8EB246D2F22058B86197D63 /* DashboardTableViewCell.swift */,
+				BDDF1F5EF0BAB3B9109627FB587CA6A4 /* DashboardTableViewController.swift */,
+				C2D7C439211A03F24655B3EC83485699 /* DashboardTableViewHeaderView.swift */,
+				2B453DC614E218A072C114A2B53924F9 /* DeallocTracker.swift */,
+				5FAD6AF3E67DF5ACE11A887E43FABDDA /* Extensions.swift */,
+				B94BEE2742C698EFB9C167E6F38EF1D5 /* Extensions+UIKit.swift */,
+				81D672A8EEDE22D172EEA79F0698D47C /* HideOption.swift */,
+				8B790425C952D08FB0557C77AC5F887F /* LifetimeTracker.swift */,
+				63347A0625D8894534652E16017AEBCF /* LifetimeTracker+DashboardView.swift */,
+				5A6A8EB21C0094E2D2DD489E93A144B3 /* LifetimeTrackerListViewController.swift */,
+				A82870ED6EACD10A84A2BDA2BB485714 /* SettingsManager.swift */,
+				248E9E82350A532F8544390F61995E9F /* Resources */,
+				02FE2C653DA49225299B0AE8549B0635 /* Support Files */,
+			);
+			name = LifetimeTracker;
+			path = LifetimeTracker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		292CAD51F95130F0A85A2AA7A981D851 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C2E4DDC077EE27B399B14689C17E38 /* Pods-SNPScene_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725DBD8D63BBB7B77BD853FF93E41657 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5438E8863C2133253C077FADA0DE0E6 /* SNPScene-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A87AC31F1842C886EC152705273A23B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF12C647A98F7A29ED94D610212C785 /* LifetimeTracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B80F2CDDB698DDD8DBF0D09A95A73F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E941D8E84A1BFB68B4F1CE47DAF554F /* Pods-SNPScene_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14981742D0D03978CBD7D85D8A9F7FCA /* Pods-SNPScene_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030987C9ECC9EE8B6655EB18E98FA914 /* Build configuration list for PBXNativeTarget "Pods-SNPScene_Example" */;
+			buildPhases = (
+				92B80F2CDDB698DDD8DBF0D09A95A73F /* Headers */,
+				339EBBC881F4344691333EA10FA8FA94 /* Sources */,
+				64B1707FF84007DA6AF6256979FEC54A /* Frameworks */,
+				911244910EA18BA67C422FA0DDF0686C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499B217B53192CF6E562855E82F6685F /* PBXTargetDependency */,
+				2B3E2C4B94C939AD2002C85584FBF7DF /* PBXTargetDependency */,
+			);
+			name = "Pods-SNPScene_Example";
+			productName = "Pods-SNPScene_Example";
+			productReference = AE9F1BFEF04578B006DEB0CA96FE7FA3 /* Pods_SNPScene_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2C1D1B1844015587D3E5911FB41C687C /* LifetimeTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E618A66B535540754D8A450B32FAD6 /* Build configuration list for PBXNativeTarget "LifetimeTracker" */;
+			buildPhases = (
+				8A87AC31F1842C886EC152705273A23B /* Headers */,
+				30DB99129BFE28C052CBE2A5A70E353E /* Sources */,
+				42A144A9F24C3601385CDC3F81CCF9EE /* Frameworks */,
+				A4DDA181C89A1B5CD6A4F38E3E3F51CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC8305A63277042F61BCD7E77B10A16C /* PBXTargetDependency */,
+			);
+			name = LifetimeTracker;
+			productName = LifetimeTracker;
+			productReference = C0F39916EEA870F29B5E838B2BFD557F /* LifetimeTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9EEB48AB0281FD3492A12A4854F5C230 /* SNPScene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211B079C1D38ABE16F403E252ED7E4AA /* Build configuration list for PBXNativeTarget "SNPScene" */;
+			buildPhases = (
+				725DBD8D63BBB7B77BD853FF93E41657 /* Headers */,
+				F5D4F33694B4625C041F79BAFD4E17A7 /* Sources */,
+				B3D5E45E2CEF608691F9131F743B9934 /* Frameworks */,
+				BC408D2BC9BF92BBE2AE22991D77A17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02315286AFB8731550BA840C939E4E5C /* PBXTargetDependency */,
+			);
+			name = SNPScene;
+			productName = SNPScene;
+			productReference = 8C4F74F372B3C23AD1229CCEF567C71B /* SNPScene.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BED88E206EFA4CEFF02AB0BA6DAE105A /* LifetimeTracker-LifetimeTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7CF3592B61A5DC2381D132EE5EB574 /* Build configuration list for PBXNativeTarget "LifetimeTracker-LifetimeTracker" */;
+			buildPhases = (
+				04EDFDAB1AA3155EF5E2DF4C13E4763D /* Sources */,
+				5457C490C8FAC801D19A3A66919F3487 /* Frameworks */,
+				B6053674467DCF08CDC901189DE8197E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LifetimeTracker-LifetimeTracker";
+			productName = "LifetimeTracker-LifetimeTracker";
+			productReference = E058D762DB0C9D358F9E583AB5A4CF6B /* LifetimeTracker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C8EFA66A86B5DB78C73EFFE6EAB8384F /* Pods-SNPScene_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E70DB4094E1D1B56C4AFF28EA26CEC /* Build configuration list for PBXNativeTarget "Pods-SNPScene_Tests" */;
+			buildPhases = (
+				292CAD51F95130F0A85A2AA7A981D851 /* Headers */,
+				DE0D391EAE4124FDE9D81002C2F722D8 /* Sources */,
+				26E1EB7ABA238ACC4BA4292C8DA4E7CB /* Frameworks */,
+				BF4196FA56413C7E6B033DF0E65FC9D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D14EBE8F850AE1C72EE70C14C6BC22 /* PBXTargetDependency */,
+			);
+			name = "Pods-SNPScene_Tests";
+			productName = "Pods-SNPScene_Tests";
+			productReference = 69CAA5B5BC1633760F260725798B0129 /* Pods_SNPScene_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = ADB7D68ABF9CCEC3F9120E49DBAC44DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C1D1B1844015587D3E5911FB41C687C /* LifetimeTracker */,
+				BED88E206EFA4CEFF02AB0BA6DAE105A /* LifetimeTracker-LifetimeTracker */,
+				14981742D0D03978CBD7D85D8A9F7FCA /* Pods-SNPScene_Example */,
+				C8EFA66A86B5DB78C73EFFE6EAB8384F /* Pods-SNPScene_Tests */,
+				9EEB48AB0281FD3492A12A4854F5C230 /* SNPScene */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		911244910EA18BA67C422FA0DDF0686C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DDA181C89A1B5CD6A4F38E3E3F51CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578AE906A5B3FCA963BCF9399B6A8324 /* BarDashboard.storyboard in Resources */,
+				5E0DA688F2D9B1EB35D86ACBFF512EA2 /* CircularDashboard.storyboard in Resources */,
+				AC8925863B187FF5B6E90DCC344CD24D /* DashboardTableView.storyboard in Resources */,
+				18215C2ED5671E78D3878343ED13265D /* DashboardTableViewCell.xib in Resources */,
+				37F619D8C99A0F0CFC4C257FBEECB49C /* DashboardTableViewHeaderView.xib in Resources */,
+				E52721AEF1EADAC6769A1BB2C3BF1767 /* LifetimeTracker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6053674467DCF08CDC901189DE8197E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01880EAD46EA18A80307AF6ED0D9A8A3 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC408D2BC9BF92BBE2AE22991D77A17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4196FA56413C7E6B033DF0E65FC9D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EDFDAB1AA3155EF5E2DF4C13E4763D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DB99129BFE28C052CBE2A5A70E353E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D7C0FAF83BFF4924CC411B935DB8C2 /* BarDashboardViewController.swift in Sources */,
+				58FA05E69691E3AD0315167E72DDA83C /* CircularDashboardViewController.swift in Sources */,
+				DE2FD039FF55F7C0E60851FCF7515F90 /* Constants+UIKit.swift in Sources */,
+				8A5594B77026DC1B7292CE9EB507F7E4 /* Constants.swift in Sources */,
+				7716B7BF807D30D89BEA84441DA8697F /* DashboardTableViewCell.swift in Sources */,
+				19CDAE0E6E022DF376215F777B7FA442 /* DashboardTableViewController.swift in Sources */,
+				D4B12FD75647DE205FFE7CA46DF3546F /* DashboardTableViewHeaderView.swift in Sources */,
+				414F7635E15C231B74A9144BE37599F4 /* DeallocTracker.swift in Sources */,
+				46E7B638017370229EA735FF2FDCBBB1 /* Extensions+UIKit.swift in Sources */,
+				BE661B38B7D7AD86C0D27AEB2FF70C72 /* Extensions.swift in Sources */,
+				F476E871CFD938774C9F192C2E0B8C20 /* HideOption.swift in Sources */,
+				D5B466999AA9B69818F8C5AA8DF2E0C8 /* LifetimeTracker+DashboardView.swift in Sources */,
+				0529E00CDFF1F20C9ABEBA70EC2F736B /* LifetimeTracker-dummy.m in Sources */,
+				391D9ADC75FE204C7F024324FBD2C071 /* LifetimeTracker.swift in Sources */,
+				1656AEA8BEED9325B2C4D5F6EEC9A971 /* LifetimeTrackerListViewController.swift in Sources */,
+				AA822BA958FB3B85EDA03EEFAE2EDB1C /* SettingsManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339EBBC881F4344691333EA10FA8FA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E960721BFDBBB739E8104054DD57D9 /* Pods-SNPScene_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0D391EAE4124FDE9D81002C2F722D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6455B16C7CC7418B3054F82CD00F0BFD /* Pods-SNPScene_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D4F33694B4625C041F79BAFD4E17A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A081B0FD77F6A435F51975CAB8881060 /* SNPConfigurator.swift in Sources */,
+				04595A0552306391119C0F0D9A00815E /* SNPInteractor.swift in Sources */,
+				9F8039598203EEED3FE65976436C3ACE /* SNPPresenter.swift in Sources */,
+				B9DF86405947403C9EC77121027F63E7 /* SNPProtocols.swift in Sources */,
+				53AF2E1768656C1370148DBC8ED0B8CA /* SNPRouter.swift in Sources */,
+				9EC7633DA982489CABC7D8617C5BEA56 /* SNPScene-dummy.m in Sources */,
+				D997C8000383739C55548D8C613EFE1A /* SNPViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02315286AFB8731550BA840C939E4E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LifetimeTracker;
+			target = 2C1D1B1844015587D3E5911FB41C687C /* LifetimeTracker */;
+			targetProxy = ED0D51D10F41385217497E47DAB61C65 /* PBXContainerItemProxy */;
+		};
+		2B3E2C4B94C939AD2002C85584FBF7DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SNPScene;
+			target = 9EEB48AB0281FD3492A12A4854F5C230 /* SNPScene */;
+			targetProxy = FD45E696B6EA84BCEF7D239FFB157899 /* PBXContainerItemProxy */;
+		};
+		499B217B53192CF6E562855E82F6685F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LifetimeTracker;
+			target = 2C1D1B1844015587D3E5911FB41C687C /* LifetimeTracker */;
+			targetProxy = 7578C6B405852E12D02595D48B42EA15 /* PBXContainerItemProxy */;
+		};
+		52D14EBE8F850AE1C72EE70C14C6BC22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SNPScene_Example";
+			target = 14981742D0D03978CBD7D85D8A9F7FCA /* Pods-SNPScene_Example */;
+			targetProxy = AA05A534C463377C87E59D42E54B33DE /* PBXContainerItemProxy */;
+		};
+		DC8305A63277042F61BCD7E77B10A16C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LifetimeTracker-LifetimeTracker";
+			target = BED88E206EFA4CEFF02AB0BA6DAE105A /* LifetimeTracker-LifetimeTracker */;
+			targetProxy = B8E88CBDA85F0499A2054F315ED14940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B6BDD2642F06D198A20AFAA7022746F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94230109276E6280CF7F2BE795F85D23 /* LifetimeTracker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LifetimeTracker";
+				INFOPLIST_FILE = "Target Support Files/LifetimeTracker/ResourceBundle-LifetimeTracker-LifetimeTracker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LifetimeTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		17D8ABFBE88D1EF4A0EB32B8B18B94AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94230109276E6280CF7F2BE795F85D23 /* LifetimeTracker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LifetimeTracker/LifetimeTracker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LifetimeTracker/LifetimeTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LifetimeTracker/LifetimeTracker.modulemap";
+				PRODUCT_MODULE_NAME = LifetimeTracker;
+				PRODUCT_NAME = LifetimeTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1ED6C56A618609D80A8CB5E2A0627346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789DD03E862866C468449510E80010BA /* Pods-SNPScene_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SNPScene_Tests/Pods-SNPScene_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SNPScene_Tests/Pods-SNPScene_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E7FE4B3976467CA85458B2A4194D4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E53054E78A19BFA65E852142848A7165 /* Pods-SNPScene_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SNPScene_Example/Pods-SNPScene_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SNPScene_Example/Pods-SNPScene_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6A949A208667F02694AF29D5DCC8D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		831CBB2B68B913E6E9937075B6B42579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94230109276E6280CF7F2BE795F85D23 /* LifetimeTracker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LifetimeTracker/LifetimeTracker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LifetimeTracker/LifetimeTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LifetimeTracker/LifetimeTracker.modulemap";
+				PRODUCT_MODULE_NAME = LifetimeTracker;
+				PRODUCT_NAME = LifetimeTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		940A27FEECC3E247853F208574F61FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94230109276E6280CF7F2BE795F85D23 /* LifetimeTracker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LifetimeTracker";
+				INFOPLIST_FILE = "Target Support Files/LifetimeTracker/ResourceBundle-LifetimeTracker-LifetimeTracker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LifetimeTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9C2F2DB1A4FD91254DBC7D5DBEAEF8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E20CAF2F2CB430179D49B8DD8311FA3 /* SNPScene.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SNPScene/SNPScene-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SNPScene/SNPScene-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SNPScene/SNPScene.modulemap";
+				PRODUCT_MODULE_NAME = SNPScene;
+				PRODUCT_NAME = SNPScene;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B37E5B48EE77297190DACE9D6FB55DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E20CAF2F2CB430179D49B8DD8311FA3 /* SNPScene.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SNPScene/SNPScene-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SNPScene/SNPScene-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SNPScene/SNPScene.modulemap";
+				PRODUCT_MODULE_NAME = SNPScene;
+				PRODUCT_NAME = SNPScene;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DCAAEEB13DA3487920BE0AA1908BB88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4076C20DDCB347B6E64E56B0802D1DC7 /* Pods-SNPScene_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SNPScene_Example/Pods-SNPScene_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SNPScene_Example/Pods-SNPScene_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAA130507E228F5D568E9B95813232EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C325E8DAC20A2B59DD1E6C0610C7E5 /* Pods-SNPScene_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SNPScene_Tests/Pods-SNPScene_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SNPScene_Tests/Pods-SNPScene_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030987C9ECC9EE8B6655EB18E98FA914 /* Build configuration list for PBXNativeTarget "Pods-SNPScene_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAAEEB13DA3487920BE0AA1908BB88D /* Debug */,
+				4E7FE4B3976467CA85458B2A4194D4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211B079C1D38ABE16F403E252ED7E4AA /* Build configuration list for PBXNativeTarget "SNPScene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37E5B48EE77297190DACE9D6FB55DBD /* Debug */,
+				9C2F2DB1A4FD91254DBC7D5DBEAEF8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */,
+				6A949A208667F02694AF29D5DCC8D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97E618A66B535540754D8A450B32FAD6 /* Build configuration list for PBXNativeTarget "LifetimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D8ABFBE88D1EF4A0EB32B8B18B94AD /* Debug */,
+				831CBB2B68B913E6E9937075B6B42579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7CF3592B61A5DC2381D132EE5EB574 /* Build configuration list for PBXNativeTarget "LifetimeTracker-LifetimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6BDD2642F06D198A20AFAA7022746F /* Debug */,
+				940A27FEECC3E247853F208574F61FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E70DB4094E1D1B56C4AFF28EA26CEC /* Build configuration list for PBXNativeTarget "Pods-SNPScene_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA130507E228F5D568E9B95813232EB /* Debug */,
+				1ED6C56A618609D80A8CB5E2A0627346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

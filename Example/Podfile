@@ -2,7 +2,8 @@ use_frameworks!
 
 target 'SNPScene_Example' do
   pod 'SNPScene', :path => '../'
-
+  pod 'LifetimeTracker', :git => 'https://github.com/krzysztofzablocki/LifetimeTracker.git', :branch => 'master'
+  
   target 'SNPScene_Tests' do
     inherit! :search_paths
 

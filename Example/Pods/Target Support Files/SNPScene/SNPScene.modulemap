@@ -1,0 +1,6 @@
+framework module SNPScene {
+  umbrella header "SNPScene-umbrella.h"
+
+  export *
+  module * { export * }
+}

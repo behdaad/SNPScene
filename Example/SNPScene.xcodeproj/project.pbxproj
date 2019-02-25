@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0F9ECC218101DD6267EDC680 /* Pods-SNPScene_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNPScene_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SNPScene_Tests/Pods-SNPScene_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		31890857E8A0E200E040794E /* Pods-SNPScene_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNPScene_Example.debug.xcconfig"; path = "Target Support Files/Pods-SNPScene_Example/Pods-SNPScene_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5472DBD63A3D332AAF00927E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5472DBD63A3D332AAF00927E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SNPScene_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNPScene_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7B7F4FBD9A3FDC2BE5246902 /* Pods_SNPScene_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNPScene_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E813335314F7ED98D4D7CE1 /* Pods-SNPScene_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNPScene_Tests.release.xcconfig"; path = "Target Support Files/Pods-SNPScene_Tests/Pods-SNPScene_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C973CD2DC46B1E4EFE7CF31F /* SNPScene.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SNPScene.podspec; path = ../SNPScene.podspec; sourceTree = "<group>"; };
+		C973CD2DC46B1E4EFE7CF31F /* SNPScene.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SNPScene.podspec; path = ../SNPScene.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D234CFD5FBCB77A7D3C12A7F /* Pods_SNPScene_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNPScene_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37EC6812BD17DE7AEE84373 /* Pods-SNPScene_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNPScene_Example.release.xcconfig"; path = "Target Support Files/Pods-SNPScene_Example/Pods-SNPScene_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F8AE9FD11B6226FEA6BCCD10 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F8AE9FD11B6226FEA6BCCD10 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				0F9ECC218101DD6267EDC680 /* Pods-SNPScene_Tests.debug.xcconfig */,
 				8E813335314F7ED98D4D7CE1 /* Pods-SNPScene_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = QEHW524445;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = QEHW524445;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -293,12 +294,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SNPScene_Example/Pods-SNPScene_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LifetimeTracker/LifetimeTracker.framework",
 				"${BUILT_PRODUCTS_DIR}/SNPScene/SNPScene.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LifetimeTracker.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SNPScene.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +485,7 @@
 			baseConfigurationReference = 31890857E8A0E200E040794E /* Pods-SNPScene_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QEHW524445;
 				INFOPLIST_FILE = SNPScene/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -497,6 +501,7 @@
 			baseConfigurationReference = F37EC6812BD17DE7AEE84373 /* Pods-SNPScene_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QEHW524445;
 				INFOPLIST_FILE = SNPScene/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -511,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F9ECC218101DD6267EDC680 /* Pods-SNPScene_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = QEHW524445;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -533,6 +539,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8E813335314F7ED98D4D7CE1 /* Pods-SNPScene_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = QEHW524445;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

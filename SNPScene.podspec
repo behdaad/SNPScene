@@ -28,9 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/jebelli.farhad@gmail.com/SNPScene.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SNPScene/Classes/**/*'
+  s.source_files = 'SNPScene/**/*'
   
   # s.resource_bundles = {
   #   'SNPScene' => ['SNPScene/Assets/*.png']
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'LifetimeTracker'
 end
