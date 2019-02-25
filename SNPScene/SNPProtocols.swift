@@ -11,7 +11,7 @@
 //
 
 import UIKit
-protocol SNPInteractorProtocol: class {
+public protocol SNPInteractorProtocol: class {
     func viewDidLoad()
     func viewWillAppear(_ animated: Bool)
     func viewDidAppear(_ animated: Bool)
@@ -21,13 +21,13 @@ protocol SNPInteractorProtocol: class {
 }
 
 //sourcery: AutoMockable
-protocol SNPViewControllerProtocol: class {
+public protocol SNPViewControllerProtocol: class {
     var viewController: SNPViewController! { get }
     
 }
 
 public extension SNPViewControllerProtocol where Self: SNPViewController {
-    open var viewController: SNPViewController! {
+    public var viewController: SNPViewController! {
         return self
     }
 }
@@ -37,7 +37,7 @@ public protocol SNPRouterProtocol: class {
 
 
 
-extension SNPInteractorProtocol {
+public extension SNPInteractorProtocol {
     func viewDidLoad() {}
     func viewWillAppear(_ animated: Bool) {}
     func viewDidAppear(_ animated: Bool) {}

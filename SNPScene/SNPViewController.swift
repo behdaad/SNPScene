@@ -9,7 +9,7 @@
 import LifetimeTracker
 import UIKit
 
-class SNPViewController: UIViewController, LifetimeTrackable {
+open class SNPViewController: UIViewController, LifetimeTrackable {
     // MARK: - Properties
     public var interactor: SNPInteractorProtocol!
 
@@ -25,7 +25,7 @@ class SNPViewController: UIViewController, LifetimeTrackable {
         trackLifetime()
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
 
         trackLifetime()
