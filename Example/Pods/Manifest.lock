@@ -1,6 +1,6 @@
 PODS:
   - LifetimeTracker (1.6.0)
-  - SNPScene (0.1.0):
+  - SNPScene (0.1.1):
     - LifetimeTracker
     - SNPUtilities
   - SNPUtilities (1.1.8)
@@ -27,9 +27,9 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   LifetimeTracker: 8b7f2979fa70a41e9aaff63d158cae7a027eef10
-  SNPScene: 82aeb1b7eff31134682beee3d1401ed327b6d903
+  SNPScene: ee3d0efd17092ee3f7d12cc43d587079381f5a88
   SNPUtilities: 94054c67a95a3f165984c45a2f42eaf89322ab9d
 
-PODFILE CHECKSUM: dd55a42927bb0a0f4b5e74c8e2f6e75ba679f5a6
+PODFILE CHECKSUM: 470313ca61a038f0197f2e98b0f2619e4ba17ccb
 
 COCOAPODS: 1.6.0.beta.2
