@@ -14,6 +14,8 @@ import UIKit
 
 open class SNPPresenter {
     // MARK: - Properties
-
+    public init() {
+        
+    }
     // MARK: - Methods
 }

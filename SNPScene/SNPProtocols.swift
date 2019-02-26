@@ -11,6 +11,7 @@
 //
 
 import UIKit
+import SNPUtilities
 public protocol SNPInteractorProtocol: class {
     func viewDidLoad()
     func viewWillAppear(_ animated: Bool)
@@ -19,6 +20,12 @@ public protocol SNPInteractorProtocol: class {
     func viewDidDisappear(_ animated: Bool)
 
 }
+
+protocol SNPPresenterProtocol: class {
+    func handle(error: SNPError?)
+    func handle(error: SNPError?, dismiss: (() -> Void)?)
+}
+
 
 //sourcery: AutoMockable
 public protocol SNPViewControllerProtocol: class {

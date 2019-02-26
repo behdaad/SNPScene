@@ -155,10 +155,12 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/LifetimeTracker/LifetimeTracker.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SNPScene/SNPScene.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SNPUtilities/SNPUtilities.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/LifetimeTracker/LifetimeTracker.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SNPScene/SNPScene.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SNPUtilities/SNPUtilities.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

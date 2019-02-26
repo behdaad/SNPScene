@@ -2,10 +2,16 @@ PODS:
   - LifetimeTracker (1.6.0)
   - SNPScene (0.1.0):
     - LifetimeTracker
+    - SNPUtilities
+  - SNPUtilities (1.1.8)
 
 DEPENDENCIES:
   - LifetimeTracker (from `https://github.com/krzysztofzablocki/LifetimeTracker.git`, branch `master`)
   - SNPScene (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SNPUtilities
 
 EXTERNAL SOURCES:
   LifetimeTracker:
@@ -21,7 +27,8 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   LifetimeTracker: 8b7f2979fa70a41e9aaff63d158cae7a027eef10
-  SNPScene: 8287cd769a919df6e98997ce480b8e3bc745979f
+  SNPScene: 82aeb1b7eff31134682beee3d1401ed327b6d903
+  SNPUtilities: 94054c67a95a3f165984c45a2f42eaf89322ab9d
 
 PODFILE CHECKSUM: dd55a42927bb0a0f4b5e74c8e2f6e75ba679f5a6
 

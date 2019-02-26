@@ -7,64 +7,106 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01880EAD46EA18A80307AF6ED0D9A8A3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46F33EEAF1122CA70D6C849A1E28529A /* Localizable.strings */; };
-		04595A0552306391119C0F0D9A00815E /* SNPInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C877B864887600D045BD4406CC172E8 /* SNPInteractor.swift */; };
-		0529E00CDFF1F20C9ABEBA70EC2F736B /* LifetimeTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E23D8314C15FF481F1E2FFECFD0BD1E /* LifetimeTracker-dummy.m */; };
-		1656AEA8BEED9325B2C4D5F6EEC9A971 /* LifetimeTrackerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A8EB21C0094E2D2DD489E93A144B3 /* LifetimeTrackerListViewController.swift */; };
-		18215C2ED5671E78D3878343ED13265D /* DashboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 343E679ADB130D6B3ACCC58A34951E34 /* DashboardTableViewCell.xib */; };
-		19CDAE0E6E022DF376215F777B7FA442 /* DashboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF1F5EF0BAB3B9109627FB587CA6A4 /* DashboardTableViewController.swift */; };
-		25D7C0FAF83BFF4924CC411B935DB8C2 /* BarDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136E725E60036772622D8EC80B43E31D /* BarDashboardViewController.swift */; };
-		2FF12C647A98F7A29ED94D610212C785 /* LifetimeTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C3CD642D3CBA88880297ED2764F39FE /* LifetimeTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37F619D8C99A0F0CFC4C257FBEECB49C /* DashboardTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ED891BA06B8E6C9425A457BC14D7E97 /* DashboardTableViewHeaderView.xib */; };
-		391D9ADC75FE204C7F024324FBD2C071 /* LifetimeTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B790425C952D08FB0557C77AC5F887F /* LifetimeTracker.swift */; };
-		3B1A8CE5FEB0A051EFAA37471235010A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718BBA61E057FA5D4427A9ABB0B792BC /* Foundation.framework */; };
-		3D289618DA42755CD8E8BC8A9C3049EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718BBA61E057FA5D4427A9ABB0B792BC /* Foundation.framework */; };
-		414F7635E15C231B74A9144BE37599F4 /* DeallocTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B453DC614E218A072C114A2B53924F9 /* DeallocTracker.swift */; };
-		46E7B638017370229EA735FF2FDCBBB1 /* Extensions+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BEE2742C698EFB9C167E6F38EF1D5 /* Extensions+UIKit.swift */; };
-		4E6AB28921950BF89E4D84CD329ED528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718BBA61E057FA5D4427A9ABB0B792BC /* Foundation.framework */; };
-		53AF2E1768656C1370148DBC8ED0B8CA /* SNPRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259583C7034A9AF5C1D5D9525AE6BB87 /* SNPRouter.swift */; };
-		578AE906A5B3FCA963BCF9399B6A8324 /* BarDashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969D17747CDC73DB27F9DE294B58DD04 /* BarDashboard.storyboard */; };
-		58FA05E69691E3AD0315167E72DDA83C /* CircularDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C7EE3E140ECAE7B3A669A605F6C70E /* CircularDashboardViewController.swift */; };
-		5E0DA688F2D9B1EB35D86ACBFF512EA2 /* CircularDashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D5A84AC75846F494C02F64F544550E /* CircularDashboard.storyboard */; };
+		01880EAD46EA18A80307AF6ED0D9A8A3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 245ECE1297AA4FAEE1F46B41B32E8795 /* Localizable.strings */; };
+		0529E00CDFF1F20C9ABEBA70EC2F736B /* LifetimeTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 607EFB0C7107877A8CB7CF100B0AB4B7 /* LifetimeTracker-dummy.m */; };
+		06981FB615BDA33855CDFDC494A45C64 /* NSString+ConvertDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D509162125C70F7E7B30B8E2CE0C6861 /* NSString+ConvertDigits.swift */; };
+		1656AEA8BEED9325B2C4D5F6EEC9A971 /* LifetimeTrackerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8938B629B35AC16DF9CA5B8ED6E7B095 /* LifetimeTrackerListViewController.swift */; };
+		16BF5A536FAAAC1F83D9E870A067550D /* UIImage+Rotating.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF8B48ECCF6328DBDE876782C0DA40F /* UIImage+Rotating.m */; };
+		18215C2ED5671E78D3878343ED13265D /* DashboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F5E908CABFD06F96C101BEF4D9CA8B /* DashboardTableViewCell.xib */; };
+		188ADC3ECBBA4F4D77722BD38A65A7D1 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3298E29FAAAE4B7494DF20E62E78B6 /* KeychainWrapper.swift */; };
+		19CDAE0E6E022DF376215F777B7FA442 /* DashboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43320420BE3582F4303C83EDA360A059 /* DashboardTableViewController.swift */; };
+		245C57030179DB05BACD87634D332576 /* NYXImagesHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB9E375F7A0ADAE00E1357B8627B1EC /* NYXImagesHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25D7C0FAF83BFF4924CC411B935DB8C2 /* BarDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D28CFC0DA647D879EF77E9317DB28F /* BarDashboardViewController.swift */; };
+		26A0564282F62C3A23972F5DB5BDC6C4 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A001B2999AB9AB9C10632DE1F25837F /* UIImage+animatedGIF.m */; };
+		2B8B34EA227E6EFFAE40484772CA08F7 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F0BF6053EEF78C55E68D3BECA5029E /* UIView.swift */; };
+		2EBC9DD566EC077C79C24D093D496A8D /* UIImage+Localized.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ABBD4F2299475ED5F6618BFD93594C /* UIImage+Localized.m */; };
+		2EC998E8382C203620E68FDD6CD396AE /* SNPUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7E520A9740DF06014F7444C434C41B /* SNPUtilities.framework */; };
+		2FF12C647A98F7A29ED94D610212C785 /* LifetimeTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 343ACAED84EFC5EEFFF1CA4DA0DC8D87 /* LifetimeTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37F619D8C99A0F0CFC4C257FBEECB49C /* DashboardTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D18E8C664A703ABF9CCD64CECA7312 /* DashboardTableViewHeaderView.xib */; };
+		391D9ADC75FE204C7F024324FBD2C071 /* LifetimeTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D29CC58E0F196332C2062B83B7A44A /* LifetimeTracker.swift */; };
+		39FEF5417432517798565A7E24799B0E /* SNPDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF482D0A030DC839787D865283EED94 /* SNPDecodable.swift */; };
+		3AE95E764B7BB58A5DA64957F3D6EDBC /* SNPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2768A5198FA1F4931297B1DE5775D /* SNPViewController.swift */; };
+		3B1A8CE5FEB0A051EFAA37471235010A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29031DA2DDE76C9CC9CE6EE681016C8 /* Foundation.framework */; };
+		414F7635E15C231B74A9144BE37599F4 /* DeallocTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04314992EE92824EAAA7D6AC47BE638 /* DeallocTracker.swift */; };
+		441C471C783BE9A0E9A8DAA7E17C5386 /* SNPErrorDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8772E84D95FE5FCA0BE5D175A214BC64 /* SNPErrorDomain.swift */; };
+		46B42A4DB1B6F06D67BCE5841CD3E4C5 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604892B444909953E112089C221EA744 /* Int.swift */; };
+		46E7B638017370229EA735FF2FDCBBB1 /* Extensions+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B484AC3D1FD246628B8BFDA8C806A9FD /* Extensions+UIKit.swift */; };
+		4858AD13A2A77ABE9BAD7B3F19349C32 /* SNPUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6FE99105103D761DDF1608E026C808 /* SNPUtilities.swift */; };
+		4C4F5F3993F1777B5C16C35BD5F597CA /* SNPUtilities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00797F6786828F0E8D883E062C5DA753 /* SNPUtilities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CB8DC6C53EFF21B4CC4AB56331B2EE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29031DA2DDE76C9CC9CE6EE681016C8 /* Foundation.framework */; };
+		4E574CAEEBB6E27EC49B25C475BE97E1 /* SNPScene-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7F632058FBF8F831B35B701CA159AE /* SNPScene-dummy.m */; };
+		54A7B5AD4A22714A767DE504AAB9D573 /* Pods-SNPScene_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37702AAD63CFF2C5AFD78B6FCF261222 /* Pods-SNPScene_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		560697B084886EF7AD4FB4472F19EF00 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0963A9533E806C2C70E28FA6EEA7BFD3 /* KeychainItemAccessibility.swift */; };
+		5614499DAECC7AC698A09E209DD8BB9F /* SNPProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA25EEEC6AF70551681F307586A71B1 /* SNPProtocols.swift */; };
+		578AE906A5B3FCA963BCF9399B6A8324 /* BarDashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E6898D6CE5BCF2C58ED49E020F5E89 /* BarDashboard.storyboard */; };
+		58FA05E69691E3AD0315167E72DDA83C /* CircularDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E62D0D655D25B9D5B41CD4465FF0C /* CircularDashboardViewController.swift */; };
+		5E0DA688F2D9B1EB35D86ACBFF512EA2 /* CircularDashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1882016F3FD66BD34267BAE0EC3AD978 /* CircularDashboard.storyboard */; };
+		5F4D1FA1A2E5C9D7D0A540BFD09758D6 /* LifetimeTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7CE89173514A4DE3E97C78B99F4C8E6 /* LifetimeTracker.framework */; };
+		60E9F921C63AB15EB26DADB2D7418E95 /* SNPPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534AD4BA3A1567B6800ACF860E05CC6C /* SNPPresenter.swift */; };
 		6455B16C7CC7418B3054F82CD00F0BFD /* Pods-SNPScene_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B21A17681EC487397055204C87DB4E5B /* Pods-SNPScene_Tests-dummy.m */; };
-		6D039D2B5742EB0751ECA00B8ABB0583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718BBA61E057FA5D4427A9ABB0B792BC /* Foundation.framework */; };
-		7716B7BF807D30D89BEA84441DA8697F /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5A241B8EB246D2F22058B86197D63 /* DashboardTableViewCell.swift */; };
-		7EFEC8576FA70D5B3318338F81397240 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42F843F1817376157CF695A45042155 /* UIKit.framework */; };
+		68C18E918E751784348EC6CE185E721C /* NYXImagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB4C263C22DE022724DB8FC83C81B4 /* NYXImagesHelper.m */; };
+		69AE4919AB92D8937635816DFB66D84E /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BE6FE7969D1F49FD71CFC35DE542BB /* Dictionary.swift */; };
+		6BCDBDE6FF80788DD2084AAA79F938A6 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EC7EE0FC1C7F2F7996CAA2F4DD6BA5 /* Bundle.swift */; };
+		6D039D2B5742EB0751ECA00B8ABB0583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29031DA2DDE76C9CC9CE6EE681016C8 /* Foundation.framework */; };
+		721D527E5DFC285EC5E1311A098A7352 /* UIImage+Localized.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F552D09BA322A5273D9A028F0AD56B0 /* UIImage+Localized.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		728B12774E17997BDDCD2B57D65F70AE /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A429C3A3E25CC8C114C92494E686FE1 /* UIDevice.swift */; };
+		738C0BFAF3903D9E3E043785700E889F /* UIImage+animatedGIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EEA3196CF4DE861A1D1FD232767F4A9 /* UIImage+animatedGIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7716B7BF807D30D89BEA84441DA8697F /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6624726A2072FA47324B92B177DB25F1 /* DashboardTableViewCell.swift */; };
+		7EFEC8576FA70D5B3318338F81397240 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF8ECADFCBE3EED8A846851DD4BC5D5 /* UIKit.framework */; };
+		809D8A33FE0017F2CD868CCF4B2C93DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29031DA2DDE76C9CC9CE6EE681016C8 /* Foundation.framework */; };
 		83C2E4DDC077EE27B399B14689C17E38 /* Pods-SNPScene_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7679F8A4F86B5ED5A4599F109412CE1 /* Pods-SNPScene_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A5594B77026DC1B7292CE9EB507F7E4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BE7B7BAEB0323102A9DC815363A456 /* Constants.swift */; };
-		8E941D8E84A1BFB68B4F1CE47DAF554F /* Pods-SNPScene_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37702AAD63CFF2C5AFD78B6FCF261222 /* Pods-SNPScene_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EC7633DA982489CABC7D8617C5BEA56 /* SNPScene-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7F632058FBF8F831B35B701CA159AE /* SNPScene-dummy.m */; };
-		9F8039598203EEED3FE65976436C3ACE /* SNPPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534AD4BA3A1567B6800ACF860E05CC6C /* SNPPresenter.swift */; };
-		A081B0FD77F6A435F51975CAB8881060 /* SNPConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139FC8FC3C21FC8B3E6C0226DF335086 /* SNPConfigurator.swift */; };
-		A5438E8863C2133253C077FADA0DE0E6 /* SNPScene-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 242525F18154AC4E6A060C2BB7124E87 /* SNPScene-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA822BA958FB3B85EDA03EEFAE2EDB1C /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82870ED6EACD10A84A2BDA2BB485714 /* SettingsManager.swift */; };
-		AC8925863B187FF5B6E90DCC344CD24D /* DashboardTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6DCD297007535C3C16799A3E353721 /* DashboardTableView.storyboard */; };
-		B9DF86405947403C9EC77121027F63E7 /* SNPProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA25EEEC6AF70551681F307586A71B1 /* SNPProtocols.swift */; };
-		BE661B38B7D7AD86C0D27AEB2FF70C72 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD6AF3E67DF5ACE11A887E43FABDDA /* Extensions.swift */; };
-		D4B12FD75647DE205FFE7CA46DF3546F /* DashboardTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7C439211A03F24655B3EC83485699 /* DashboardTableViewHeaderView.swift */; };
-		D5B466999AA9B69818F8C5AA8DF2E0C8 /* LifetimeTracker+DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63347A0625D8894534652E16017AEBCF /* LifetimeTracker+DashboardView.swift */; };
-		D997C8000383739C55548D8C613EFE1A /* SNPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2768A5198FA1F4931297B1DE5775D /* SNPViewController.swift */; };
-		DE2FD039FF55F7C0E60851FCF7515F90 /* Constants+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54104A6F06B815EA738F75CB32723174 /* Constants+UIKit.swift */; };
-		E0E960721BFDBBB739E8104054DD57D9 /* Pods-SNPScene_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0062515D362930E8347033D52491B59 /* Pods-SNPScene_Example-dummy.m */; };
-		E52721AEF1EADAC6769A1BB2C3BF1767 /* LifetimeTracker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E058D762DB0C9D358F9E583AB5A4CF6B /* LifetimeTracker.bundle */; };
-		F066B61A51058F14CF0A7725FE09B555 /* LifetimeTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1179D8DFC9B0594FD901714827923F66 /* LifetimeTracker.framework */; };
-		F476E871CFD938774C9F192C2E0B8C20 /* HideOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D672A8EEDE22D172EEA79F0698D47C /* HideOption.swift */; };
+		8A5594B77026DC1B7292CE9EB507F7E4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449C2A1098E3BEA0217D88DF0E4B8DF /* Constants.swift */; };
+		8A94C79E235F6BD6C5AF1ECE64846AF6 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF83E921E224B4AF3655CD37CFD0D7 /* UIViewController.swift */; };
+		9505819895A97A923AF11D2018AAB58F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FDF6A4962D00E343CEC739D7895E86 /* UIImage.swift */; };
+		AA822BA958FB3B85EDA03EEFAE2EDB1C /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E80DFE91758B2F2D772335D24DBF51 /* SettingsManager.swift */; };
+		AC8925863B187FF5B6E90DCC344CD24D /* DashboardTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97D297A2E232EDDA9AD51D2F08FA1F14 /* DashboardTableView.storyboard */; };
+		B078F9272E9668DAAAE9799138C78FBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29031DA2DDE76C9CC9CE6EE681016C8 /* Foundation.framework */; };
+		BB5C01A3E0F6724AC220F8C9708CADE1 /* SNPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912EDE1B060F0DF618BC7DC6C5DFE143 /* SNPError.swift */; };
+		BE57432615CD869F4E53BD5750DBB878 /* SNPConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139FC8FC3C21FC8B3E6C0226DF335086 /* SNPConfigurator.swift */; };
+		BE661B38B7D7AD86C0D27AEB2FF70C72 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634CDF0986B7354E0B09BD10439C9F3C /* Extensions.swift */; };
+		C144F94F31A844806A7178E6789EA004 /* Persian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75825832CFB848AB4CBD897EF143FC39 /* Persian.swift */; };
+		C2299DCD06BFCD954200128799BB67CD /* SNPInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C877B864887600D045BD4406CC172E8 /* SNPInteractor.swift */; };
+		C4D62A9071B8B1CF7E57B98CECAA6756 /* Pods-SNPScene_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0062515D362930E8347033D52491B59 /* Pods-SNPScene_Example-dummy.m */; };
+		D4B12FD75647DE205FFE7CA46DF3546F /* DashboardTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD1822779B2A2DC974B8BFABEDF5E32 /* DashboardTableViewHeaderView.swift */; };
+		D5B466999AA9B69818F8C5AA8DF2E0C8 /* LifetimeTracker+DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6983AD25EF086F2C396F98F9DD74D104 /* LifetimeTracker+DashboardView.swift */; };
+		DE2FD039FF55F7C0E60851FCF7515F90 /* Constants+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C32ACF08EDF30680D11C4939A54C59 /* Constants+UIKit.swift */; };
+		E256B753B6EC058FD25F453EB4C61989 /* UIImage+Rotating.h in Headers */ = {isa = PBXBuildFile; fileRef = A7153E0C80C0A7DECF9686F1BAA27F98 /* UIImage+Rotating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E52721AEF1EADAC6769A1BB2C3BF1767 /* LifetimeTracker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45044D9C82553722E47A4330963EF172 /* LifetimeTracker.bundle */; };
+		E982596F24B57019886CC1C30A99B2F0 /* NYXImagesKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1103D61A883E5718DD2669ECAC3608CE /* NYXImagesKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA2C79E98529C13D0B8B5A3AA81CF8A1 /* SNPUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BA7A41ABB5B9EE73623BCFBA10F057 /* SNPUtilities-dummy.m */; };
+		F476E871CFD938774C9F192C2E0B8C20 /* HideOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BD4D728D1696418FED527295ACF95A /* HideOption.swift */; };
+		F6509CC5DB5DBBF8167AF3BB67EA6810 /* SNPRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259583C7034A9AF5C1D5D9525AE6BB87 /* SNPRouter.swift */; };
+		F6FA34F7B14397BB5DD95B2E7DD7E0DE /* SNPScene-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 242525F18154AC4E6A060C2BB7124E87 /* SNPScene-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7578C6B405852E12D02595D48B42EA15 /* PBXContainerItemProxy */ = {
+		03BBF170CECE1DBA2D0E490E0B985844 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2C1D1B1844015587D3E5911FB41C687C;
-			remoteInfo = LifetimeTracker;
+			remoteGlobalIDString = 8163C062BACEFF02DFB001B436F9EA96;
+			remoteInfo = SNPScene;
+		};
+		45819B659797EF76565EEEAB6331BDFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5316F334FEF0C2497FC084C2037DAF0D;
+			remoteInfo = SNPUtilities;
 		};
 		AA05A534C463377C87E59D42E54B33DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 14981742D0D03978CBD7D85D8A9F7FCA;
+			remoteGlobalIDString = 564184CE41BEB0DF091AD2EEC57EAD76;
 			remoteInfo = "Pods-SNPScene_Example";
+		};
+		B123094773C2603AC250A7127484978E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5316F334FEF0C2497FC084C2037DAF0D;
+			remoteInfo = SNPUtilities;
 		};
 		B8E88CBDA85F0499A2054F315ED14940 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -73,95 +115,135 @@
 			remoteGlobalIDString = BED88E206EFA4CEFF02AB0BA6DAE105A;
 			remoteInfo = "LifetimeTracker-LifetimeTracker";
 		};
-		ED0D51D10F41385217497E47DAB61C65 /* PBXContainerItemProxy */ = {
+		CE6572BACD8CF41A3681AEBB161547FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2C1D1B1844015587D3E5911FB41C687C;
 			remoteInfo = LifetimeTracker;
 		};
-		FD45E696B6EA84BCEF7D239FFB157899 /* PBXContainerItemProxy */ = {
+		FA4A4B2D7651419A605D966C1D571D8B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9EEB48AB0281FD3492A12A4854F5C230;
-			remoteInfo = SNPScene;
+			remoteGlobalIDString = 2C1D1B1844015587D3E5911FB41C687C;
+			remoteInfo = LifetimeTracker;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00797F6786828F0E8D883E062C5DA753 /* SNPUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNPUtilities-umbrella.h"; sourceTree = "<group>"; };
+		04DF0F3A13BE7F63AC2D8F3993897724 /* Pods_SNPScene_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNPScene_Example.framework; path = "Pods-SNPScene_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		052D00EBE1CC0F2C5DB42F79634DB3D4 /* SNPScene-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SNPScene-Info.plist"; sourceTree = "<group>"; };
-		0EF5A241B8EB246D2F22058B86197D63 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DashboardTableViewCell.swift; path = Sources/UI/DashboardTableView/DashboardTableViewCell.swift; sourceTree = "<group>"; };
-		1179D8DFC9B0594FD901714827923F66 /* LifetimeTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LifetimeTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		136E725E60036772622D8EC80B43E31D /* BarDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarDashboardViewController.swift; path = Sources/UI/BarDashboard/BarDashboardViewController.swift; sourceTree = "<group>"; };
+		05C32ACF08EDF30680D11C4939A54C59 /* Constants+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Constants+UIKit.swift"; path = "Sources/UI/Constants+UIKit.swift"; sourceTree = "<group>"; };
+		0963A9533E806C2C70E28FA6EEA7BFD3 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainItemAccessibility.swift; path = SNPUtilities/Classes/SwiftKeychainWrapper/KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		0A429C3A3E25CC8C114C92494E686FE1 /* UIDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDevice.swift; path = SNPUtilities/Classes/Extensions/UIDevice.swift; sourceTree = "<group>"; };
+		1103D61A883E5718DD2669ECAC3608CE /* NYXImagesKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYXImagesKit.h; path = "SNPUtilities/Classes/Extensions/UIImage+rotate/NYXImagesKit.h"; sourceTree = "<group>"; };
 		139FC8FC3C21FC8B3E6C0226DF335086 /* SNPConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNPConfigurator.swift; path = SNPScene/SNPConfigurator.swift; sourceTree = "<group>"; };
-		19BE7B7BAEB0323102A9DC815363A456 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Sources/Constants.swift; sourceTree = "<group>"; };
-		1A6DCD297007535C3C16799A3E353721 /* DashboardTableView.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = DashboardTableView.storyboard; path = Sources/UI/DashboardTableView/DashboardTableView.storyboard; sourceTree = "<group>"; };
+		1882016F3FD66BD34267BAE0EC3AD978 /* CircularDashboard.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = CircularDashboard.storyboard; path = Sources/UI/CircularDashboard/CircularDashboard.storyboard; sourceTree = "<group>"; };
+		1A001B2999AB9AB9C10632DE1F25837F /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+animatedGIF.m"; path = "SNPUtilities/Classes/UIImage+animatedGIF/UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		1D3298E29FAAAE4B7494DF20E62E78B6 /* KeychainWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = SNPUtilities/Classes/SwiftKeychainWrapper/KeychainWrapper.swift; sourceTree = "<group>"; };
+		1F552D09BA322A5273D9A028F0AD56B0 /* UIImage+Localized.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Localized.h"; path = "SNPUtilities/Classes/Extensions/UIImage+Localized/UIImage+Localized.h"; sourceTree = "<group>"; };
 		1F891DCB7BD39DAE6B83B6B248B62F6D /* Pods-SNPScene_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNPScene_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		242525F18154AC4E6A060C2BB7124E87 /* SNPScene-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNPScene-umbrella.h"; sourceTree = "<group>"; };
+		245ECE1297AA4FAEE1F46B41B32E8795 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = Sources/Localizable.strings; sourceTree = "<group>"; };
 		259583C7034A9AF5C1D5D9525AE6BB87 /* SNPRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNPRouter.swift; path = SNPScene/SNPRouter.swift; sourceTree = "<group>"; };
 		27326BC110A16C8F3D9B8767A5EDCF94 /* Pods-SNPScene_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNPScene_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2B453DC614E218A072C114A2B53924F9 /* DeallocTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeallocTracker.swift; path = Sources/DeallocTracker.swift; sourceTree = "<group>"; };
-		31D5A84AC75846F494C02F64F544550E /* CircularDashboard.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = CircularDashboard.storyboard; path = Sources/UI/CircularDashboard/CircularDashboard.storyboard; sourceTree = "<group>"; };
-		343E679ADB130D6B3ACCC58A34951E34 /* DashboardTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DashboardTableViewCell.xib; path = Sources/UI/DashboardTableView/DashboardTableViewCell.xib; sourceTree = "<group>"; };
-		34C7EE3E140ECAE7B3A669A605F6C70E /* CircularDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularDashboardViewController.swift; path = Sources/UI/CircularDashboard/CircularDashboardViewController.swift; sourceTree = "<group>"; };
+		32D28CFC0DA647D879EF77E9317DB28F /* BarDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarDashboardViewController.swift; path = Sources/UI/BarDashboard/BarDashboardViewController.swift; sourceTree = "<group>"; };
+		343ACAED84EFC5EEFFF1CA4DA0DC8D87 /* LifetimeTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LifetimeTracker-umbrella.h"; sourceTree = "<group>"; };
+		34501D0F6BE3AC504E7DA6AC799B9F1F /* LifetimeTracker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LifetimeTracker.xcconfig; sourceTree = "<group>"; };
 		37702AAD63CFF2C5AFD78B6FCF261222 /* Pods-SNPScene_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SNPScene_Example-umbrella.h"; sourceTree = "<group>"; };
+		38A2A54B7B990950C9A55A017CDFCD32 /* LifetimeTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LifetimeTracker-Info.plist"; sourceTree = "<group>"; };
 		3C877B864887600D045BD4406CC172E8 /* SNPInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNPInteractor.swift; path = SNPScene/SNPInteractor.swift; sourceTree = "<group>"; };
+		3E1D0A7393A1152F9E8E4FEFC3D216D7 /* SNPUtilities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SNPUtilities-Info.plist"; sourceTree = "<group>"; };
 		3E20CAF2F2CB430179D49B8DD8311FA3 /* SNPScene.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SNPScene.xcconfig; sourceTree = "<group>"; };
 		4076C20DDCB347B6E64E56B0802D1DC7 /* Pods-SNPScene_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNPScene_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		41C36AF0EA83A81E3234FBF0D449BCD2 /* SNPUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNPUtilities-prefix.pch"; sourceTree = "<group>"; };
+		43320420BE3582F4303C83EDA360A059 /* DashboardTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DashboardTableViewController.swift; path = Sources/UI/DashboardTableView/DashboardTableViewController.swift; sourceTree = "<group>"; };
+		45044D9C82553722E47A4330963EF172 /* LifetimeTracker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LifetimeTracker.bundle; path = "LifetimeTracker-LifetimeTracker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D079B6B8E56D1A53CEC65D4EB1E7ED /* SNPScene-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNPScene-prefix.pch"; sourceTree = "<group>"; };
-		46F33EEAF1122CA70D6C849A1E28529A /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = Sources/Localizable.strings; sourceTree = "<group>"; };
-		4C3CD642D3CBA88880297ED2764F39FE /* LifetimeTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LifetimeTracker-umbrella.h"; sourceTree = "<group>"; };
+		45E80DFE91758B2F2D772335D24DBF51 /* SettingsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsManager.swift; path = Sources/SettingsManager.swift; sourceTree = "<group>"; };
+		4CF482D0A030DC839787D865283EED94 /* SNPDecodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNPDecodable.swift; path = SNPUtilities/Classes/SNPDecodable.swift; sourceTree = "<group>"; };
 		4E7F632058FBF8F831B35B701CA159AE /* SNPScene-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SNPScene-dummy.m"; sourceTree = "<group>"; };
+		4EEA3196CF4DE861A1D1FD232767F4A9 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+animatedGIF.h"; path = "SNPUtilities/Classes/UIImage+animatedGIF/UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		52CB4C263C22DE022724DB8FC83C81B4 /* NYXImagesHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYXImagesHelper.m; path = "SNPUtilities/Classes/Extensions/UIImage+rotate/NYXImagesHelper.m"; sourceTree = "<group>"; };
 		534AD4BA3A1567B6800ACF860E05CC6C /* SNPPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNPPresenter.swift; path = SNPScene/SNPPresenter.swift; sourceTree = "<group>"; };
-		54104A6F06B815EA738F75CB32723174 /* Constants+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Constants+UIKit.swift"; path = "Sources/UI/Constants+UIKit.swift"; sourceTree = "<group>"; };
+		55D29CC58E0F196332C2062B83B7A44A /* LifetimeTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LifetimeTracker.swift; path = Sources/LifetimeTracker.swift; sourceTree = "<group>"; };
+		55E8E790E628A557E55DD53D52C1B35C /* SNPUtilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SNPUtilities.xcconfig; sourceTree = "<group>"; };
+		55EC7EE0FC1C7F2F7996CAA2F4DD6BA5 /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bundle.swift; path = SNPUtilities/Classes/Extensions/Bundle.swift; sourceTree = "<group>"; };
+		55F5E908CABFD06F96C101BEF4D9CA8B /* DashboardTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DashboardTableViewCell.xib; path = Sources/UI/DashboardTableView/DashboardTableViewCell.xib; sourceTree = "<group>"; };
+		58BD4D728D1696418FED527295ACF95A /* HideOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HideOption.swift; path = Sources/UI/HideOption.swift; sourceTree = "<group>"; };
 		58F2768A5198FA1F4931297B1DE5775D /* SNPViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNPViewController.swift; path = SNPScene/SNPViewController.swift; sourceTree = "<group>"; };
-		5A6A8EB21C0094E2D2DD489E93A144B3 /* LifetimeTrackerListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LifetimeTrackerListViewController.swift; path = Sources/UI/LifetimeTrackerListViewController.swift; sourceTree = "<group>"; };
-		5C06ECA42AC3CF8AD4AD5F1942E2968A /* LifetimeTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LifetimeTracker.modulemap; sourceTree = "<group>"; };
-		5ED891BA06B8E6C9425A457BC14D7E97 /* DashboardTableViewHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DashboardTableViewHeaderView.xib; path = Sources/UI/DashboardTableView/DashboardTableViewHeaderView.xib; sourceTree = "<group>"; };
-		5FAD6AF3E67DF5ACE11A887E43FABDDA /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
-		63347A0625D8894534652E16017AEBCF /* LifetimeTracker+DashboardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LifetimeTracker+DashboardView.swift"; path = "Sources/UI/LifetimeTracker+DashboardView.swift"; sourceTree = "<group>"; };
-		69CAA5B5BC1633760F260725798B0129 /* Pods_SNPScene_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNPScene_Tests.framework; path = "Pods-SNPScene_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		718BBA61E057FA5D4427A9ABB0B792BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		59E6898D6CE5BCF2C58ED49E020F5E89 /* BarDashboard.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = BarDashboard.storyboard; path = Sources/UI/BarDashboard/BarDashboard.storyboard; sourceTree = "<group>"; };
+		5B488CCF1668B298329809BB846C5045 /* SNPUtilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SNPUtilities.modulemap; sourceTree = "<group>"; };
+		5B6FD831479386A78900F612993A4C07 /* LifetimeTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LifetimeTracker.modulemap; sourceTree = "<group>"; };
+		5B6FE99105103D761DDF1608E026C808 /* SNPUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNPUtilities.swift; path = SNPUtilities/Classes/SNPUtilities.swift; sourceTree = "<group>"; };
+		5C1DF3B967A6D061A74AA5ACCBEEB21B /* LifetimeTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LifetimeTracker.framework; path = LifetimeTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		604892B444909953E112089C221EA744 /* Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Int.swift; path = SNPUtilities/Classes/Extensions/Int.swift; sourceTree = "<group>"; };
+		607EFB0C7107877A8CB7CF100B0AB4B7 /* LifetimeTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LifetimeTracker-dummy.m"; sourceTree = "<group>"; };
+		634CDF0986B7354E0B09BD10439C9F3C /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		6624726A2072FA47324B92B177DB25F1 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DashboardTableViewCell.swift; path = Sources/UI/DashboardTableView/DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		67ABBD4F2299475ED5F6618BFD93594C /* UIImage+Localized.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Localized.m"; path = "SNPUtilities/Classes/Extensions/UIImage+Localized/UIImage+Localized.m"; sourceTree = "<group>"; };
+		6983AD25EF086F2C396F98F9DD74D104 /* LifetimeTracker+DashboardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LifetimeTracker+DashboardView.swift"; path = "Sources/UI/LifetimeTracker+DashboardView.swift"; sourceTree = "<group>"; };
+		6BD1822779B2A2DC974B8BFABEDF5E32 /* DashboardTableViewHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DashboardTableViewHeaderView.swift; path = Sources/UI/DashboardTableView/DashboardTableViewHeaderView.swift; sourceTree = "<group>"; };
+		75825832CFB848AB4CBD897EF143FC39 /* Persian.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Persian.swift; path = SNPUtilities/Classes/Persian.swift; sourceTree = "<group>"; };
 		75B4D8B9E3B083D19CA21452672C6838 /* SNPScene.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SNPScene.modulemap; sourceTree = "<group>"; };
 		789DD03E862866C468449510E80010BA /* Pods-SNPScene_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNPScene_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		81D672A8EEDE22D172EEA79F0698D47C /* HideOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HideOption.swift; path = Sources/UI/HideOption.swift; sourceTree = "<group>"; };
-		8B790425C952D08FB0557C77AC5F887F /* LifetimeTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LifetimeTracker.swift; path = Sources/LifetimeTracker.swift; sourceTree = "<group>"; };
-		8C4F74F372B3C23AD1229CCEF567C71B /* SNPScene.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SNPScene.framework; path = SNPScene.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E23D8314C15FF481F1E2FFECFD0BD1E /* LifetimeTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LifetimeTracker-dummy.m"; sourceTree = "<group>"; };
-		90E37252C5D9F02615D78425D5D48107 /* LifetimeTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LifetimeTracker-Info.plist"; sourceTree = "<group>"; };
+		8449C2A1098E3BEA0217D88DF0E4B8DF /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Sources/Constants.swift; sourceTree = "<group>"; };
+		8772E84D95FE5FCA0BE5D175A214BC64 /* SNPErrorDomain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNPErrorDomain.swift; path = SNPUtilities/Classes/SNPErrorDomain.swift; sourceTree = "<group>"; };
+		8938B629B35AC16DF9CA5B8ED6E7B095 /* LifetimeTrackerListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LifetimeTrackerListViewController.swift; path = Sources/UI/LifetimeTrackerListViewController.swift; sourceTree = "<group>"; };
+		89A780B7A93FD057A2E6B96D68373C83 /* ResourceBundle-LifetimeTracker-LifetimeTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LifetimeTracker-LifetimeTracker-Info.plist"; sourceTree = "<group>"; };
+		8DAF83E921E224B4AF3655CD37CFD0D7 /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = SNPUtilities/Classes/Extensions/UIViewController.swift; sourceTree = "<group>"; };
+		912EDE1B060F0DF618BC7DC6C5DFE143 /* SNPError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNPError.swift; path = SNPUtilities/Classes/SNPError.swift; sourceTree = "<group>"; };
 		92846D173453045F3C354D62D3D13A1C /* Pods-SNPScene_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNPScene_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		94230109276E6280CF7F2BE795F85D23 /* LifetimeTracker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LifetimeTracker.xcconfig; sourceTree = "<group>"; };
 		962AB30366D95D317AE5B924591193E7 /* Pods-SNPScene_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SNPScene_Tests.modulemap"; sourceTree = "<group>"; };
-		969D17747CDC73DB27F9DE294B58DD04 /* BarDashboard.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = BarDashboard.storyboard; path = Sources/UI/BarDashboard/BarDashboard.storyboard; sourceTree = "<group>"; };
+		97D297A2E232EDDA9AD51D2F08FA1F14 /* DashboardTableView.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = DashboardTableView.storyboard; path = Sources/UI/DashboardTableView/DashboardTableView.storyboard; sourceTree = "<group>"; };
+		9A7E62D0D655D25B9D5B41CD4465FF0C /* CircularDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularDashboardViewController.swift; path = Sources/UI/CircularDashboard/CircularDashboardViewController.swift; sourceTree = "<group>"; };
+		9C7E520A9740DF06014F7444C434C41B /* SNPUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNPUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0062515D362930E8347033D52491B59 /* Pods-SNPScene_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNPScene_Example-dummy.m"; sourceTree = "<group>"; };
+		A0F0BF6053EEF78C55E68D3BECA5029E /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = SNPUtilities/Classes/Extensions/UIView.swift; sourceTree = "<group>"; };
+		A5F0772531B474C9275026F633CF0509 /* SNPUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SNPUtilities.framework; path = SNPUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7153E0C80C0A7DECF9686F1BAA27F98 /* UIImage+Rotating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Rotating.h"; path = "SNPUtilities/Classes/Extensions/UIImage+rotate/UIImage+Rotating.h"; sourceTree = "<group>"; };
 		A7783452C61A0D473E6C06C15C4F2605 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A82870ED6EACD10A84A2BDA2BB485714 /* SettingsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsManager.swift; path = Sources/SettingsManager.swift; sourceTree = "<group>"; };
+		AAB9E375F7A0ADAE00E1357B8627B1EC /* NYXImagesHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYXImagesHelper.h; path = "SNPUtilities/Classes/Extensions/UIImage+rotate/NYXImagesHelper.h"; sourceTree = "<group>"; };
 		AB7C435E01F15D48004EAEAFC3BA4439 /* Pods-SNPScene_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SNPScene_Example.modulemap"; sourceTree = "<group>"; };
-		AE9F1BFEF04578B006DEB0CA96FE7FA3 /* Pods_SNPScene_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNPScene_Example.framework; path = "Pods-SNPScene_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04314992EE92824EAAA7D6AC47BE638 /* DeallocTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeallocTracker.swift; path = Sources/DeallocTracker.swift; sourceTree = "<group>"; };
 		B21A17681EC487397055204C87DB4E5B /* Pods-SNPScene_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNPScene_Tests-dummy.m"; sourceTree = "<group>"; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B42F843F1817376157CF695A45042155 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B4B6F1594331CBF8A2C72F797A566B4F /* LifetimeTracker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LifetimeTracker-prefix.pch"; sourceTree = "<group>"; };
+		B484AC3D1FD246628B8BFDA8C806A9FD /* Extensions+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Extensions+UIKit.swift"; path = "Sources/UI/Extensions+UIKit.swift"; sourceTree = "<group>"; };
+		B4BA7A41ABB5B9EE73623BCFBA10F057 /* SNPUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SNPUtilities-dummy.m"; sourceTree = "<group>"; };
 		B7679F8A4F86B5ED5A4599F109412CE1 /* Pods-SNPScene_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SNPScene_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B94BEE2742C698EFB9C167E6F38EF1D5 /* Extensions+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Extensions+UIKit.swift"; path = "Sources/UI/Extensions+UIKit.swift"; sourceTree = "<group>"; };
-		BDDF1F5EF0BAB3B9109627FB587CA6A4 /* DashboardTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DashboardTableViewController.swift; path = Sources/UI/DashboardTableView/DashboardTableViewController.swift; sourceTree = "<group>"; };
-		C0F39916EEA870F29B5E838B2BFD557F /* LifetimeTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LifetimeTracker.framework; path = LifetimeTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BE6FE7969D1F49FD71CFC35DE542BB /* Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dictionary.swift; path = SNPUtilities/Classes/Extensions/Dictionary.swift; sourceTree = "<group>"; };
 		C25B308A38EB7A8C377BAACDF926B595 /* Pods-SNPScene_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNPScene_Example-Info.plist"; sourceTree = "<group>"; };
-		C2D7C439211A03F24655B3EC83485699 /* DashboardTableViewHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DashboardTableViewHeaderView.swift; path = Sources/UI/DashboardTableView/DashboardTableViewHeaderView.swift; sourceTree = "<group>"; };
+		C87671729FC688C673E2A0F619E297CB /* LifetimeTracker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LifetimeTracker-prefix.pch"; sourceTree = "<group>"; };
+		C9FDF6A4962D00E343CEC739D7895E86 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = SNPUtilities/Classes/Extensions/UIImage.swift; sourceTree = "<group>"; };
 		CA9C08F28EA659EE8364FFDBAA488B11 /* Pods-SNPScene_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNPScene_Tests-Info.plist"; sourceTree = "<group>"; };
-		D7F998D70A0B6ACB9D0A28952D5812DF /* ResourceBundle-LifetimeTracker-LifetimeTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LifetimeTracker-LifetimeTracker-Info.plist"; sourceTree = "<group>"; };
-		E058D762DB0C9D358F9E583AB5A4CF6B /* LifetimeTracker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LifetimeTracker.bundle; path = "LifetimeTracker-LifetimeTracker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC74F572C6EAA731B68F79AB8BA2197 /* SNPScene.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SNPScene.framework; path = SNPScene.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22CC530B917E74ACD4EBC4CA096F769 /* Pods_SNPScene_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNPScene_Tests.framework; path = "Pods-SNPScene_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D509162125C70F7E7B30B8E2CE0C6861 /* NSString+ConvertDigits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+ConvertDigits.swift"; path = "SNPUtilities/Classes/NSString+ConvertDigits/NSString+ConvertDigits.swift"; sourceTree = "<group>"; };
+		D8D18E8C664A703ABF9CCD64CECA7312 /* DashboardTableViewHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DashboardTableViewHeaderView.xib; path = Sources/UI/DashboardTableView/DashboardTableViewHeaderView.xib; sourceTree = "<group>"; };
 		E0C33BCF5016578C91FC6DD851F5B2B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E0E0F961CC7B47EF813FC6FCD46F25AD /* SNPScene.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SNPScene.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E29031DA2DDE76C9CC9CE6EE681016C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E36CC4C68DD73D8C7501845EB6F562DE /* Pods-SNPScene_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNPScene_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E53054E78A19BFA65E852142848A7165 /* Pods-SNPScene_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNPScene_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E7CE89173514A4DE3E97C78B99F4C8E6 /* LifetimeTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LifetimeTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA1CB3B851CE3A7BB2762BAD138884D /* Pods-SNPScene_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNPScene_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F3C325E8DAC20A2B59DD1E6C0610C7E5 /* Pods-SNPScene_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNPScene_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAF8B48ECCF6328DBDE876782C0DA40F /* UIImage+Rotating.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Rotating.m"; path = "SNPUtilities/Classes/Extensions/UIImage+rotate/UIImage+Rotating.m"; sourceTree = "<group>"; };
+		FCF8ECADFCBE3EED8A846851DD4BC5D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		FEA25EEEC6AF70551681F307586A71B1 /* SNPProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNPProtocols.swift; path = SNPScene/SNPProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1EDA1ACB803D7DBFFF78B14C4C7E0F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809D8A33FE0017F2CD868CCF4B2C93DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		26E1EB7ABA238ACC4BA4292C8DA4E7CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -186,58 +268,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64B1707FF84007DA6AF6256979FEC54A /* Frameworks */ = {
+		65A13AAEE7452FBA56875C9C357136F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E6AB28921950BF89E4D84CD329ED528 /* Foundation.framework in Frameworks */,
+				4CB8DC6C53EFF21B4CC4AB56331B2EE3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3D5E45E2CEF608691F9131F743B9934 /* Frameworks */ = {
+		F3F1A9C465BFFDA80952AF50377E5465 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D289618DA42755CD8E8BC8A9C3049EE /* Foundation.framework in Frameworks */,
-				F066B61A51058F14CF0A7725FE09B555 /* LifetimeTracker.framework in Frameworks */,
+				B078F9272E9668DAAAE9799138C78FBD /* Foundation.framework in Frameworks */,
+				5F4D1FA1A2E5C9D7D0A540BFD09758D6 /* LifetimeTracker.framework in Frameworks */,
+				2EC998E8382C203620E68FDD6CD396AE /* SNPUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0140BC85B1D9A19C400C197C7C744253 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1179D8DFC9B0594FD901714827923F66 /* LifetimeTracker.framework */,
-				CF0D28BE4E1B473636605BCBC2B0CEEB /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		02FE2C653DA49225299B0AE8549B0635 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5C06ECA42AC3CF8AD4AD5F1942E2968A /* LifetimeTracker.modulemap */,
-				94230109276E6280CF7F2BE795F85D23 /* LifetimeTracker.xcconfig */,
-				8E23D8314C15FF481F1E2FFECFD0BD1E /* LifetimeTracker-dummy.m */,
-				90E37252C5D9F02615D78425D5D48107 /* LifetimeTracker-Info.plist */,
-				B4B6F1594331CBF8A2C72F797A566B4F /* LifetimeTracker-prefix.pch */,
-				4C3CD642D3CBA88880297ED2764F39FE /* LifetimeTracker-umbrella.h */,
-				D7F998D70A0B6ACB9D0A28952D5812DF /* ResourceBundle-LifetimeTracker-LifetimeTracker-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/LifetimeTracker";
-			sourceTree = "<group>";
-		};
-		0DECB3B3DCD9655C1A8046F02DF90D4C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E925BC09F1A8D132B8C3C457F39B1D52 /* LifetimeTracker */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		1F48F87C130C027C339BCFA628F13323 /* Pods-SNPScene_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -254,17 +305,50 @@
 			path = "Target Support Files/Pods-SNPScene_Tests";
 			sourceTree = "<group>";
 		};
-		248E9E82350A532F8544390F61995E9F /* Resources */ = {
+		2224551CD4DF1E67CC08B4BE03638B39 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				969D17747CDC73DB27F9DE294B58DD04 /* BarDashboard.storyboard */,
-				31D5A84AC75846F494C02F64F544550E /* CircularDashboard.storyboard */,
-				1A6DCD297007535C3C16799A3E353721 /* DashboardTableView.storyboard */,
-				343E679ADB130D6B3ACCC58A34951E34 /* DashboardTableViewCell.xib */,
-				5ED891BA06B8E6C9425A457BC14D7E97 /* DashboardTableViewHeaderView.xib */,
-				46F33EEAF1122CA70D6C849A1E28529A /* Localizable.strings */,
+				59E6898D6CE5BCF2C58ED49E020F5E89 /* BarDashboard.storyboard */,
+				1882016F3FD66BD34267BAE0EC3AD978 /* CircularDashboard.storyboard */,
+				97D297A2E232EDDA9AD51D2F08FA1F14 /* DashboardTableView.storyboard */,
+				55F5E908CABFD06F96C101BEF4D9CA8B /* DashboardTableViewCell.xib */,
+				D8D18E8C664A703ABF9CCD64CECA7312 /* DashboardTableViewHeaderView.xib */,
+				245ECE1297AA4FAEE1F46B41B32E8795 /* Localizable.strings */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		386A61A0811B6413222812E86A126F91 /* SNPUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				55EC7EE0FC1C7F2F7996CAA2F4DD6BA5 /* Bundle.swift */,
+				C1BE6FE7969D1F49FD71CFC35DE542BB /* Dictionary.swift */,
+				604892B444909953E112089C221EA744 /* Int.swift */,
+				0963A9533E806C2C70E28FA6EEA7BFD3 /* KeychainItemAccessibility.swift */,
+				1D3298E29FAAAE4B7494DF20E62E78B6 /* KeychainWrapper.swift */,
+				D509162125C70F7E7B30B8E2CE0C6861 /* NSString+ConvertDigits.swift */,
+				AAB9E375F7A0ADAE00E1357B8627B1EC /* NYXImagesHelper.h */,
+				52CB4C263C22DE022724DB8FC83C81B4 /* NYXImagesHelper.m */,
+				1103D61A883E5718DD2669ECAC3608CE /* NYXImagesKit.h */,
+				75825832CFB848AB4CBD897EF143FC39 /* Persian.swift */,
+				4CF482D0A030DC839787D865283EED94 /* SNPDecodable.swift */,
+				912EDE1B060F0DF618BC7DC6C5DFE143 /* SNPError.swift */,
+				8772E84D95FE5FCA0BE5D175A214BC64 /* SNPErrorDomain.swift */,
+				5B6FE99105103D761DDF1608E026C808 /* SNPUtilities.swift */,
+				0A429C3A3E25CC8C114C92494E686FE1 /* UIDevice.swift */,
+				C9FDF6A4962D00E343CEC739D7895E86 /* UIImage.swift */,
+				4EEA3196CF4DE861A1D1FD232767F4A9 /* UIImage+animatedGIF.h */,
+				1A001B2999AB9AB9C10632DE1F25837F /* UIImage+animatedGIF.m */,
+				1F552D09BA322A5273D9A028F0AD56B0 /* UIImage+Localized.h */,
+				67ABBD4F2299475ED5F6618BFD93594C /* UIImage+Localized.m */,
+				A7153E0C80C0A7DECF9686F1BAA27F98 /* UIImage+Rotating.h */,
+				FAF8B48ECCF6328DBDE876782C0DA40F /* UIImage+Rotating.m */,
+				A0F0BF6053EEF78C55E68D3BECA5029E /* UIView.swift */,
+				8DAF83E921E224B4AF3655CD37CFD0D7 /* UIViewController.swift */,
+				C2829EE4237D3A92FBB486ACE884AA47 /* Support Files */,
+			);
+			name = SNPUtilities;
+			path = SNPUtilities;
 			sourceTree = "<group>";
 		};
 		3D7DC4C5C42D6145FF08747AAF7BDE01 /* Pod */ = {
@@ -277,16 +361,82 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		53B9A922B8C0DFC5F8E350EA1941EDDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7CE89173514A4DE3E97C78B99F4C8E6 /* LifetimeTracker.framework */,
+				9C7E520A9740DF06014F7444C434C41B /* SNPUtilities.framework */,
+				57AF2B15099AE76097427FD084C74F87 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57AF2B15099AE76097427FD084C74F87 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E29031DA2DDE76C9CC9CE6EE681016C8 /* Foundation.framework */,
+				FCF8ECADFCBE3EED8A846851DD4BC5D5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76EE1F489EE01D5C34458482D07D8D13 /* LifetimeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				32D28CFC0DA647D879EF77E9317DB28F /* BarDashboardViewController.swift */,
+				9A7E62D0D655D25B9D5B41CD4465FF0C /* CircularDashboardViewController.swift */,
+				8449C2A1098E3BEA0217D88DF0E4B8DF /* Constants.swift */,
+				05C32ACF08EDF30680D11C4939A54C59 /* Constants+UIKit.swift */,
+				6624726A2072FA47324B92B177DB25F1 /* DashboardTableViewCell.swift */,
+				43320420BE3582F4303C83EDA360A059 /* DashboardTableViewController.swift */,
+				6BD1822779B2A2DC974B8BFABEDF5E32 /* DashboardTableViewHeaderView.swift */,
+				B04314992EE92824EAAA7D6AC47BE638 /* DeallocTracker.swift */,
+				634CDF0986B7354E0B09BD10439C9F3C /* Extensions.swift */,
+				B484AC3D1FD246628B8BFDA8C806A9FD /* Extensions+UIKit.swift */,
+				58BD4D728D1696418FED527295ACF95A /* HideOption.swift */,
+				55D29CC58E0F196332C2062B83B7A44A /* LifetimeTracker.swift */,
+				6983AD25EF086F2C396F98F9DD74D104 /* LifetimeTracker+DashboardView.swift */,
+				8938B629B35AC16DF9CA5B8ED6E7B095 /* LifetimeTrackerListViewController.swift */,
+				45E80DFE91758B2F2D772335D24DBF51 /* SettingsManager.swift */,
+				2224551CD4DF1E67CC08B4BE03638B39 /* Resources */,
+				EDCE9D41834691CD0D274366CBC5C398 /* Support Files */,
+			);
+			name = LifetimeTracker;
+			path = LifetimeTracker;
+			sourceTree = "<group>";
+		};
+		7A19E97B7B175ED5347977945BE32B27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76EE1F489EE01D5C34458482D07D8D13 /* LifetimeTracker */,
+				386A61A0811B6413222812E86A126F91 /* SNPUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
 				E599062C91FF2C9A43C84C0DB94F148C /* Development Pods */,
-				0140BC85B1D9A19C400C197C7C744253 /* Frameworks */,
-				0DECB3B3DCD9655C1A8046F02DF90D4C /* Pods */,
-				ADB7D68ABF9CCEC3F9120E49DBAC44DE /* Products */,
+				53B9A922B8C0DFC5F8E350EA1941EDDB /* Frameworks */,
+				7A19E97B7B175ED5347977945BE32B27 /* Pods */,
+				8E8542E45EC001AAD1B5E5D5633FC463 /* Products */,
 				D50C772506A45460789CD696A0C68F76 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8E8542E45EC001AAD1B5E5D5633FC463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45044D9C82553722E47A4330963EF172 /* LifetimeTracker.bundle */,
+				5C1DF3B967A6D061A74AA5ACCBEEB21B /* LifetimeTracker.framework */,
+				04DF0F3A13BE7F63AC2D8F3993897724 /* Pods_SNPScene_Example.framework */,
+				D22CC530B917E74ACD4EBC4CA096F769 /* Pods_SNPScene_Tests.framework */,
+				CAC74F572C6EAA731B68F79AB8BA2197 /* SNPScene.framework */,
+				A5F0772531B474C9275026F633CF0509 /* SNPUtilities.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		915BFC4DA58192B1228EA9414ABC6562 /* Pods-SNPScene_Example */ = {
@@ -304,18 +454,6 @@
 			);
 			name = "Pods-SNPScene_Example";
 			path = "Target Support Files/Pods-SNPScene_Example";
-			sourceTree = "<group>";
-		};
-		ADB7D68ABF9CCEC3F9120E49DBAC44DE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E058D762DB0C9D358F9E583AB5A4CF6B /* LifetimeTracker.bundle */,
-				C0F39916EEA870F29B5E838B2BFD557F /* LifetimeTracker.framework */,
-				AE9F1BFEF04578B006DEB0CA96FE7FA3 /* Pods_SNPScene_Example.framework */,
-				69CAA5B5BC1633760F260725798B0129 /* Pods_SNPScene_Tests.framework */,
-				8C4F74F372B3C23AD1229CCEF567C71B /* SNPScene.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B02DA61AD01D2E4BA612B88202FB60D6 /* Support Files */ = {
@@ -348,13 +486,18 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		CF0D28BE4E1B473636605BCBC2B0CEEB /* iOS */ = {
+		C2829EE4237D3A92FBB486ACE884AA47 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				718BBA61E057FA5D4427A9ABB0B792BC /* Foundation.framework */,
-				B42F843F1817376157CF695A45042155 /* UIKit.framework */,
+				5B488CCF1668B298329809BB846C5045 /* SNPUtilities.modulemap */,
+				55E8E790E628A557E55DD53D52C1B35C /* SNPUtilities.xcconfig */,
+				B4BA7A41ABB5B9EE73623BCFBA10F057 /* SNPUtilities-dummy.m */,
+				3E1D0A7393A1152F9E8E4FEFC3D216D7 /* SNPUtilities-Info.plist */,
+				41C36AF0EA83A81E3234FBF0D449BCD2 /* SNPUtilities-prefix.pch */,
+				00797F6786828F0E8D883E062C5DA753 /* SNPUtilities-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/SNPUtilities";
 			sourceTree = "<group>";
 		};
 		D50C772506A45460789CD696A0C68F76 /* Targets Support Files */ = {
@@ -374,34 +517,37 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		E925BC09F1A8D132B8C3C457F39B1D52 /* LifetimeTracker */ = {
+		EDCE9D41834691CD0D274366CBC5C398 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				136E725E60036772622D8EC80B43E31D /* BarDashboardViewController.swift */,
-				34C7EE3E140ECAE7B3A669A605F6C70E /* CircularDashboardViewController.swift */,
-				19BE7B7BAEB0323102A9DC815363A456 /* Constants.swift */,
-				54104A6F06B815EA738F75CB32723174 /* Constants+UIKit.swift */,
-				0EF5A241B8EB246D2F22058B86197D63 /* DashboardTableViewCell.swift */,
-				BDDF1F5EF0BAB3B9109627FB587CA6A4 /* DashboardTableViewController.swift */,
-				C2D7C439211A03F24655B3EC83485699 /* DashboardTableViewHeaderView.swift */,
-				2B453DC614E218A072C114A2B53924F9 /* DeallocTracker.swift */,
-				5FAD6AF3E67DF5ACE11A887E43FABDDA /* Extensions.swift */,
-				B94BEE2742C698EFB9C167E6F38EF1D5 /* Extensions+UIKit.swift */,
-				81D672A8EEDE22D172EEA79F0698D47C /* HideOption.swift */,
-				8B790425C952D08FB0557C77AC5F887F /* LifetimeTracker.swift */,
-				63347A0625D8894534652E16017AEBCF /* LifetimeTracker+DashboardView.swift */,
-				5A6A8EB21C0094E2D2DD489E93A144B3 /* LifetimeTrackerListViewController.swift */,
-				A82870ED6EACD10A84A2BDA2BB485714 /* SettingsManager.swift */,
-				248E9E82350A532F8544390F61995E9F /* Resources */,
-				02FE2C653DA49225299B0AE8549B0635 /* Support Files */,
+				5B6FD831479386A78900F612993A4C07 /* LifetimeTracker.modulemap */,
+				34501D0F6BE3AC504E7DA6AC799B9F1F /* LifetimeTracker.xcconfig */,
+				607EFB0C7107877A8CB7CF100B0AB4B7 /* LifetimeTracker-dummy.m */,
+				38A2A54B7B990950C9A55A017CDFCD32 /* LifetimeTracker-Info.plist */,
+				C87671729FC688C673E2A0F619E297CB /* LifetimeTracker-prefix.pch */,
+				343ACAED84EFC5EEFFF1CA4DA0DC8D87 /* LifetimeTracker-umbrella.h */,
+				89A780B7A93FD057A2E6B96D68373C83 /* ResourceBundle-LifetimeTracker-LifetimeTracker-Info.plist */,
 			);
-			name = LifetimeTracker;
-			path = LifetimeTracker;
+			name = "Support Files";
+			path = "../Target Support Files/LifetimeTracker";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		136ACC593BF583B0050047FBECA162B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245C57030179DB05BACD87634D332576 /* NYXImagesHelper.h in Headers */,
+				E982596F24B57019886CC1C30A99B2F0 /* NYXImagesKit.h in Headers */,
+				4C4F5F3993F1777B5C16C35BD5F597CA /* SNPUtilities-umbrella.h in Headers */,
+				738C0BFAF3903D9E3E043785700E889F /* UIImage+animatedGIF.h in Headers */,
+				721D527E5DFC285EC5E1311A098A7352 /* UIImage+Localized.h in Headers */,
+				E256B753B6EC058FD25F453EB4C61989 /* UIImage+Rotating.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		292CAD51F95130F0A85A2AA7A981D851 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -410,11 +556,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		725DBD8D63BBB7B77BD853FF93E41657 /* Headers */ = {
+		4646E7E59D711A7DF9FD4231295C5FE6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5438E8863C2133253C077FADA0DE0E6 /* SNPScene-umbrella.h in Headers */,
+				54A7B5AD4A22714A767DE504AAB9D573 /* Pods-SNPScene_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,37 +572,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92B80F2CDDB698DDD8DBF0D09A95A73F /* Headers */ = {
+		BC5B9E257228C942785C24EA754E970A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E941D8E84A1BFB68B4F1CE47DAF554F /* Pods-SNPScene_Example-umbrella.h in Headers */,
+				F6FA34F7B14397BB5DD95B2E7DD7E0DE /* SNPScene-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		14981742D0D03978CBD7D85D8A9F7FCA /* Pods-SNPScene_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 030987C9ECC9EE8B6655EB18E98FA914 /* Build configuration list for PBXNativeTarget "Pods-SNPScene_Example" */;
-			buildPhases = (
-				92B80F2CDDB698DDD8DBF0D09A95A73F /* Headers */,
-				339EBBC881F4344691333EA10FA8FA94 /* Sources */,
-				64B1707FF84007DA6AF6256979FEC54A /* Frameworks */,
-				911244910EA18BA67C422FA0DDF0686C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				499B217B53192CF6E562855E82F6685F /* PBXTargetDependency */,
-				2B3E2C4B94C939AD2002C85584FBF7DF /* PBXTargetDependency */,
-			);
-			name = "Pods-SNPScene_Example";
-			productName = "Pods-SNPScene_Example";
-			productReference = AE9F1BFEF04578B006DEB0CA96FE7FA3 /* Pods_SNPScene_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		2C1D1B1844015587D3E5911FB41C687C /* LifetimeTracker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97E618A66B535540754D8A450B32FAD6 /* Build configuration list for PBXNativeTarget "LifetimeTracker" */;
@@ -473,26 +599,66 @@
 			);
 			name = LifetimeTracker;
 			productName = LifetimeTracker;
-			productReference = C0F39916EEA870F29B5E838B2BFD557F /* LifetimeTracker.framework */;
+			productReference = 5C1DF3B967A6D061A74AA5ACCBEEB21B /* LifetimeTracker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9EEB48AB0281FD3492A12A4854F5C230 /* SNPScene */ = {
+		5316F334FEF0C2497FC084C2037DAF0D /* SNPUtilities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 211B079C1D38ABE16F403E252ED7E4AA /* Build configuration list for PBXNativeTarget "SNPScene" */;
+			buildConfigurationList = 0CF1CCE7274FE66950E77A20631D4F70 /* Build configuration list for PBXNativeTarget "SNPUtilities" */;
 			buildPhases = (
-				725DBD8D63BBB7B77BD853FF93E41657 /* Headers */,
-				F5D4F33694B4625C041F79BAFD4E17A7 /* Sources */,
-				B3D5E45E2CEF608691F9131F743B9934 /* Frameworks */,
-				BC408D2BC9BF92BBE2AE22991D77A17A /* Resources */,
+				136ACC593BF583B0050047FBECA162B1 /* Headers */,
+				1A94C784EE567841B508C85C1F1FDFFA /* Sources */,
+				1EDA1ACB803D7DBFFF78B14C4C7E0F49 /* Frameworks */,
+				D19F08C9D335DEFA3AC51F917D29FFE8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				02315286AFB8731550BA840C939E4E5C /* PBXTargetDependency */,
+			);
+			name = SNPUtilities;
+			productName = SNPUtilities;
+			productReference = A5F0772531B474C9275026F633CF0509 /* SNPUtilities.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		564184CE41BEB0DF091AD2EEC57EAD76 /* Pods-SNPScene_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93031E96DDDF277567AAAE7DC161C733 /* Build configuration list for PBXNativeTarget "Pods-SNPScene_Example" */;
+			buildPhases = (
+				4646E7E59D711A7DF9FD4231295C5FE6 /* Headers */,
+				391A0FA803CA0CE35FEC79E7C861F9DB /* Sources */,
+				65A13AAEE7452FBA56875C9C357136F9 /* Frameworks */,
+				8653947E869E64B220F2BDC75A13C71F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DBD10BBAF4F81C8A6D1C6C9B8F50A6B /* PBXTargetDependency */,
+				C2DBCEFA9EC01CD3A80860B4378F003A /* PBXTargetDependency */,
+				0B8F314C293AFC573D942FBAFDF68804 /* PBXTargetDependency */,
+			);
+			name = "Pods-SNPScene_Example";
+			productName = "Pods-SNPScene_Example";
+			productReference = 04DF0F3A13BE7F63AC2D8F3993897724 /* Pods_SNPScene_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8163C062BACEFF02DFB001B436F9EA96 /* SNPScene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A83229CD5D882385FEFCB2FD2BCF9D7 /* Build configuration list for PBXNativeTarget "SNPScene" */;
+			buildPhases = (
+				BC5B9E257228C942785C24EA754E970A /* Headers */,
+				71A56441A9292731EC4DF0F7EC7AF061 /* Sources */,
+				F3F1A9C465BFFDA80952AF50377E5465 /* Frameworks */,
+				FCBD66468475603E4B55C85C4739BBD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F02A986AE4956D7B74FBDC7F88F86F4 /* PBXTargetDependency */,
+				1B6280272E47E975E7CDA5654F9BCE61 /* PBXTargetDependency */,
 			);
 			name = SNPScene;
 			productName = SNPScene;
-			productReference = 8C4F74F372B3C23AD1229CCEF567C71B /* SNPScene.framework */;
+			productReference = CAC74F572C6EAA731B68F79AB8BA2197 /* SNPScene.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BED88E206EFA4CEFF02AB0BA6DAE105A /* LifetimeTracker-LifetimeTracker */ = {
@@ -509,7 +675,7 @@
 			);
 			name = "LifetimeTracker-LifetimeTracker";
 			productName = "LifetimeTracker-LifetimeTracker";
-			productReference = E058D762DB0C9D358F9E583AB5A4CF6B /* LifetimeTracker.bundle */;
+			productReference = 45044D9C82553722E47A4330963EF172 /* LifetimeTracker.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		C8EFA66A86B5DB78C73EFFE6EAB8384F /* Pods-SNPScene_Tests */ = {
@@ -528,7 +694,7 @@
 			);
 			name = "Pods-SNPScene_Tests";
 			productName = "Pods-SNPScene_Tests";
-			productReference = 69CAA5B5BC1633760F260725798B0129 /* Pods_SNPScene_Tests.framework */;
+			productReference = D22CC530B917E74ACD4EBC4CA096F769 /* Pods_SNPScene_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -548,21 +714,22 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = ADB7D68ABF9CCEC3F9120E49DBAC44DE /* Products */;
+			productRefGroup = 8E8542E45EC001AAD1B5E5D5633FC463 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2C1D1B1844015587D3E5911FB41C687C /* LifetimeTracker */,
 				BED88E206EFA4CEFF02AB0BA6DAE105A /* LifetimeTracker-LifetimeTracker */,
-				14981742D0D03978CBD7D85D8A9F7FCA /* Pods-SNPScene_Example */,
+				564184CE41BEB0DF091AD2EEC57EAD76 /* Pods-SNPScene_Example */,
 				C8EFA66A86B5DB78C73EFFE6EAB8384F /* Pods-SNPScene_Tests */,
-				9EEB48AB0281FD3492A12A4854F5C230 /* SNPScene */,
+				8163C062BACEFF02DFB001B436F9EA96 /* SNPScene */,
+				5316F334FEF0C2497FC084C2037DAF0D /* SNPUtilities */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		911244910EA18BA67C422FA0DDF0686C /* Resources */ = {
+		8653947E869E64B220F2BDC75A13C71F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -590,14 +757,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC408D2BC9BF92BBE2AE22991D77A17A /* Resources */ = {
+		BF4196FA56413C7E6B033DF0E65FC9D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF4196FA56413C7E6B033DF0E65FC9D3 /* Resources */ = {
+		D19F08C9D335DEFA3AC51F917D29FFE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBD66468475603E4B55C85C4739BBD1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -611,6 +785,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A94C784EE567841B508C85C1F1FDFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCDBDE6FF80788DD2084AAA79F938A6 /* Bundle.swift in Sources */,
+				69AE4919AB92D8937635816DFB66D84E /* Dictionary.swift in Sources */,
+				46B42A4DB1B6F06D67BCE5841CD3E4C5 /* Int.swift in Sources */,
+				560697B084886EF7AD4FB4472F19EF00 /* KeychainItemAccessibility.swift in Sources */,
+				188ADC3ECBBA4F4D77722BD38A65A7D1 /* KeychainWrapper.swift in Sources */,
+				06981FB615BDA33855CDFDC494A45C64 /* NSString+ConvertDigits.swift in Sources */,
+				68C18E918E751784348EC6CE185E721C /* NYXImagesHelper.m in Sources */,
+				C144F94F31A844806A7178E6789EA004 /* Persian.swift in Sources */,
+				39FEF5417432517798565A7E24799B0E /* SNPDecodable.swift in Sources */,
+				BB5C01A3E0F6724AC220F8C9708CADE1 /* SNPError.swift in Sources */,
+				441C471C783BE9A0E9A8DAA7E17C5386 /* SNPErrorDomain.swift in Sources */,
+				EA2C79E98529C13D0B8B5A3AA81CF8A1 /* SNPUtilities-dummy.m in Sources */,
+				4858AD13A2A77ABE9BAD7B3F19349C32 /* SNPUtilities.swift in Sources */,
+				728B12774E17997BDDCD2B57D65F70AE /* UIDevice.swift in Sources */,
+				26A0564282F62C3A23972F5DB5BDC6C4 /* UIImage+animatedGIF.m in Sources */,
+				2EBC9DD566EC077C79C24D093D496A8D /* UIImage+Localized.m in Sources */,
+				16BF5A536FAAAC1F83D9E870A067550D /* UIImage+Rotating.m in Sources */,
+				9505819895A97A923AF11D2018AAB58F /* UIImage.swift in Sources */,
+				2B8B34EA227E6EFFAE40484772CA08F7 /* UIView.swift in Sources */,
+				8A94C79E235F6BD6C5AF1ECE64846AF6 /* UIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,11 +838,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		339EBBC881F4344691333EA10FA8FA94 /* Sources */ = {
+		391A0FA803CA0CE35FEC79E7C861F9DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0E960721BFDBBB739E8104054DD57D9 /* Pods-SNPScene_Example-dummy.m in Sources */,
+				C4D62A9071B8B1CF7E57B98CECAA6756 /* Pods-SNPScene_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A56441A9292731EC4DF0F7EC7AF061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE57432615CD869F4E53BD5750DBB878 /* SNPConfigurator.swift in Sources */,
+				C2299DCD06BFCD954200128799BB67CD /* SNPInteractor.swift in Sources */,
+				60E9F921C63AB15EB26DADB2D7418E95 /* SNPPresenter.swift in Sources */,
+				5614499DAECC7AC698A09E209DD8BB9F /* SNPProtocols.swift in Sources */,
+				F6509CC5DB5DBBF8167AF3BB67EA6810 /* SNPRouter.swift in Sources */,
+				4E574CAEEBB6E27EC49B25C475BE97E1 /* SNPScene-dummy.m in Sources */,
+				3AE95E764B7BB58A5DA64957F3D6EDBC /* SNPViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,46 +868,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5D4F33694B4625C041F79BAFD4E17A7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A081B0FD77F6A435F51975CAB8881060 /* SNPConfigurator.swift in Sources */,
-				04595A0552306391119C0F0D9A00815E /* SNPInteractor.swift in Sources */,
-				9F8039598203EEED3FE65976436C3ACE /* SNPPresenter.swift in Sources */,
-				B9DF86405947403C9EC77121027F63E7 /* SNPProtocols.swift in Sources */,
-				53AF2E1768656C1370148DBC8ED0B8CA /* SNPRouter.swift in Sources */,
-				9EC7633DA982489CABC7D8617C5BEA56 /* SNPScene-dummy.m in Sources */,
-				D997C8000383739C55548D8C613EFE1A /* SNPViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		02315286AFB8731550BA840C939E4E5C /* PBXTargetDependency */ = {
+		0B8F314C293AFC573D942FBAFDF68804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SNPUtilities;
+			target = 5316F334FEF0C2497FC084C2037DAF0D /* SNPUtilities */;
+			targetProxy = 45819B659797EF76565EEEAB6331BDFA /* PBXContainerItemProxy */;
+		};
+		1B6280272E47E975E7CDA5654F9BCE61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SNPUtilities;
+			target = 5316F334FEF0C2497FC084C2037DAF0D /* SNPUtilities */;
+			targetProxy = B123094773C2603AC250A7127484978E /* PBXContainerItemProxy */;
+		};
+		1DBD10BBAF4F81C8A6D1C6C9B8F50A6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LifetimeTracker;
 			target = 2C1D1B1844015587D3E5911FB41C687C /* LifetimeTracker */;
-			targetProxy = ED0D51D10F41385217497E47DAB61C65 /* PBXContainerItemProxy */;
+			targetProxy = FA4A4B2D7651419A605D966C1D571D8B /* PBXContainerItemProxy */;
 		};
-		2B3E2C4B94C939AD2002C85584FBF7DF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SNPScene;
-			target = 9EEB48AB0281FD3492A12A4854F5C230 /* SNPScene */;
-			targetProxy = FD45E696B6EA84BCEF7D239FFB157899 /* PBXContainerItemProxy */;
-		};
-		499B217B53192CF6E562855E82F6685F /* PBXTargetDependency */ = {
+		2F02A986AE4956D7B74FBDC7F88F86F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LifetimeTracker;
 			target = 2C1D1B1844015587D3E5911FB41C687C /* LifetimeTracker */;
-			targetProxy = 7578C6B405852E12D02595D48B42EA15 /* PBXContainerItemProxy */;
+			targetProxy = CE6572BACD8CF41A3681AEBB161547FE /* PBXContainerItemProxy */;
 		};
 		52D14EBE8F850AE1C72EE70C14C6BC22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SNPScene_Example";
-			target = 14981742D0D03978CBD7D85D8A9F7FCA /* Pods-SNPScene_Example */;
+			target = 564184CE41BEB0DF091AD2EEC57EAD76 /* Pods-SNPScene_Example */;
 			targetProxy = AA05A534C463377C87E59D42E54B33DE /* PBXContainerItemProxy */;
+		};
+		C2DBCEFA9EC01CD3A80860B4378F003A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SNPScene;
+			target = 8163C062BACEFF02DFB001B436F9EA96 /* SNPScene */;
+			targetProxy = 03BBF170CECE1DBA2D0E490E0B985844 /* PBXContainerItemProxy */;
 		};
 		DC8305A63277042F61BCD7E77B10A16C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -705,7 +918,7 @@
 /* Begin XCBuildConfiguration section */
 		0B6BDD2642F06D198A20AFAA7022746F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94230109276E6280CF7F2BE795F85D23 /* LifetimeTracker.xcconfig */;
+			baseConfigurationReference = 34501D0F6BE3AC504E7DA6AC799B9F1F /* LifetimeTracker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LifetimeTracker";
@@ -721,7 +934,7 @@
 		};
 		17D8ABFBE88D1EF4A0EB32B8B18B94AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94230109276E6280CF7F2BE795F85D23 /* LifetimeTracker.xcconfig */;
+			baseConfigurationReference = 34501D0F6BE3AC504E7DA6AC799B9F1F /* LifetimeTracker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -749,6 +962,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		1B48072280975B531441892A86E8648F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E20CAF2F2CB430179D49B8DD8311FA3 /* SNPScene.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SNPScene/SNPScene-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SNPScene/SNPScene-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SNPScene/SNPScene.modulemap";
+				PRODUCT_MODULE_NAME = SNPScene;
+				PRODUCT_NAME = SNPScene;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		1ED6C56A618609D80A8CB5E2A0627346 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -784,11 +1029,10 @@
 			};
 			name = Release;
 		};
-		4E7FE4B3976467CA85458B2A4194D4C1 /* Release */ = {
+		430FAD92D6022CCEF7674B48971B133A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E53054E78A19BFA65E852142848A7165 /* Pods-SNPScene_Example.release.xcconfig */;
+			baseConfigurationReference = 3E20CAF2F2CB430179D49B8DD8311FA3 /* SNPScene.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -798,25 +1042,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SNPScene_Example/Pods-SNPScene_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SNPScene/SNPScene-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SNPScene/SNPScene-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SNPScene_Example/Pods-SNPScene_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SNPScene/SNPScene.modulemap";
+				PRODUCT_MODULE_NAME = SNPScene;
+				PRODUCT_NAME = SNPScene;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -882,6 +1124,37 @@
 			};
 			name = Debug;
 		};
+		62FAFB0A274AC695090E3CBDD0A32BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E8E790E628A557E55DD53D52C1B35C /* SNPUtilities.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SNPUtilities/SNPUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SNPUtilities/SNPUtilities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SNPUtilities/SNPUtilities.modulemap";
+				PRODUCT_MODULE_NAME = SNPUtilities;
+				PRODUCT_NAME = SNPUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6A949A208667F02694AF29D5DCC8D4BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -942,9 +1215,43 @@
 			};
 			name = Release;
 		};
+		7317FF376AB1E311841667276F451F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E53054E78A19BFA65E852142848A7165 /* Pods-SNPScene_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SNPScene_Example/Pods-SNPScene_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SNPScene_Example/Pods-SNPScene_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		831CBB2B68B913E6E9937075B6B42579 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94230109276E6280CF7F2BE795F85D23 /* LifetimeTracker.xcconfig */;
+			baseConfigurationReference = 34501D0F6BE3AC504E7DA6AC799B9F1F /* LifetimeTracker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -974,54 +1281,7 @@
 			};
 			name = Release;
 		};
-		940A27FEECC3E247853F208574F61FA5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94230109276E6280CF7F2BE795F85D23 /* LifetimeTracker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LifetimeTracker";
-				INFOPLIST_FILE = "Target Support Files/LifetimeTracker/ResourceBundle-LifetimeTracker-LifetimeTracker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = LifetimeTracker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		BD86AB22191A0B380CF61BBB71D179AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E20CAF2F2CB430179D49B8DD8311FA3 /* SNPScene.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SNPScene/SNPScene-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SNPScene/SNPScene-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SNPScene/SNPScene.modulemap";
-				PRODUCT_MODULE_NAME = SNPScene;
-				PRODUCT_NAME = SNPScene;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DCAAEEB13DA3487920BE0AA1908BB88D /* Debug */ = {
+		860038F95C306AFB6AFD5820B3EF5D71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4076C20DDCB347B6E64E56B0802D1DC7 /* Pods-SNPScene_Example.debug.xcconfig */;
 			buildSettings = {
@@ -1053,6 +1313,22 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		940A27FEECC3E247853F208574F61FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34501D0F6BE3AC504E7DA6AC799B9F1F /* LifetimeTracker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LifetimeTracker";
+				INFOPLIST_FILE = "Target Support Files/LifetimeTracker/ResourceBundle-LifetimeTracker-LifetimeTracker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LifetimeTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		EAA130507E228F5D568E9B95813232EB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1087,9 +1363,9 @@
 			};
 			name = Debug;
 		};
-		FC4117E60F9BD2D7F89E7433F04C8322 /* Release */ = {
+		F42766EBADF7CDF09F09EE8FEB483F12 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E20CAF2F2CB430179D49B8DD8311FA3 /* SNPScene.xcconfig */;
+			baseConfigurationReference = 55E8E790E628A557E55DD53D52C1B35C /* SNPUtilities.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1100,18 +1376,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SNPScene/SNPScene-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SNPScene/SNPScene-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SNPUtilities/SNPUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SNPUtilities/SNPUtilities-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SNPScene/SNPScene.modulemap";
-				PRODUCT_MODULE_NAME = SNPScene;
-				PRODUCT_NAME = SNPScene;
+				MODULEMAP_FILE = "Target Support Files/SNPUtilities/SNPUtilities.modulemap";
+				PRODUCT_MODULE_NAME = SNPUtilities;
+				PRODUCT_NAME = SNPUtilities;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1122,20 +1398,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		030987C9ECC9EE8B6655EB18E98FA914 /* Build configuration list for PBXNativeTarget "Pods-SNPScene_Example" */ = {
+		0CF1CCE7274FE66950E77A20631D4F70 /* Build configuration list for PBXNativeTarget "SNPUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCAAEEB13DA3487920BE0AA1908BB88D /* Debug */,
-				4E7FE4B3976467CA85458B2A4194D4C1 /* Release */,
+				62FAFB0A274AC695090E3CBDD0A32BFD /* Debug */,
+				F42766EBADF7CDF09F09EE8FEB483F12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		211B079C1D38ABE16F403E252ED7E4AA /* Build configuration list for PBXNativeTarget "SNPScene" */ = {
+		2A83229CD5D882385FEFCB2FD2BCF9D7 /* Build configuration list for PBXNativeTarget "SNPScene" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD86AB22191A0B380CF61BBB71D179AB /* Debug */,
-				FC4117E60F9BD2D7F89E7433F04C8322 /* Release */,
+				430FAD92D6022CCEF7674B48971B133A /* Debug */,
+				1B48072280975B531441892A86E8648F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1145,6 +1421,15 @@
 			buildConfigurations = (
 				5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */,
 				6A949A208667F02694AF29D5DCC8D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93031E96DDDF277567AAAE7DC161C733 /* Build configuration list for PBXNativeTarget "Pods-SNPScene_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860038F95C306AFB6AFD5820B3EF5D71 /* Debug */,
+				7317FF376AB1E311841667276F451F31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

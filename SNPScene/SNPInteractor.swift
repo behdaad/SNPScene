@@ -14,6 +14,6 @@ import UIKit
 
 open class SNPInteractor: NSObject {
     // MARK: - Properties
-
+    
     // MARK: - Methods
 }

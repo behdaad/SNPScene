@@ -14,6 +14,8 @@ import UIKit
 
 open class SNPRouter {
     // MARK: - Properties
-
+    public init() {
+        
+    }
     // MARK: - Methods
 }

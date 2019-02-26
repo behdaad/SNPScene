@@ -12,7 +12,7 @@
     "jebelli.farhad@gmail.com": "jebelli.farhad@gmail.com"
   },
   "source": {
-    "git": "https://github.com/jebelli.farhad@gmail.com/SNPScene.git",
+    "git": "https://gitlab.snapp.ir/iOS/snpscene.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -22,6 +22,9 @@
   "source_files": "SNPScene/**/*",
   "dependencies": {
     "LifetimeTracker": [
+
+    ],
+    "SNPUtilities": [
 
     ]
   }

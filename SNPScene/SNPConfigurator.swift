@@ -14,6 +14,6 @@ import UIKit
 
 open class SNPConfigurator {
     // MARK: - Properties
-
+    
     // MARK: - Methods
 }
