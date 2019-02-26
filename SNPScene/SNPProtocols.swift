@@ -20,8 +20,7 @@ public protocol SNPInteractorProtocol: class {
     func viewDidDisappear(_ animated: Bool)
 
 }
-
-protocol SNPPresenterProtocol: class {
+public protocol SNPPresenterProtocol: class {
     func handle(error: SNPError?)
     func handle(error: SNPError?, dismiss: (() -> Void)?)
 }
@@ -51,4 +50,10 @@ public extension SNPInteractorProtocol {
     func viewWillDisappear(_ animated: Bool) {}
     func viewDidDisappear(_ animated: Bool) {}
 
+}
+public extension SNPPresenterProtocol {
+    func handle(error: SNPError?) {
+        handle(error: error, dismiss: nil)
+    }
+    func handle(error: SNPError?, dismiss: (() -> Void)?) {}
 }
