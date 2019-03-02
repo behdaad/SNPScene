@@ -1,6 +1,6 @@
 {
   "name": "SNPScene",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "summary": "SNPArchitecture codes",
   "description": "This repo is created for separating SNPArchitecture related classes and protocols from codebase in order to use them from other repos or pods.",
   "homepage": "https://gitlab.snapp.ir/iOS/snpscene.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://gitlab.snapp.ir/iOS/snpscene.git",
-    "tag": "0.1.3"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "9.0"

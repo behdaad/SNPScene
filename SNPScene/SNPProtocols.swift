@@ -20,6 +20,8 @@ public protocol SNPInteractorProtocol: class {
     func viewDidDisappear(_ animated: Bool)
 
 }
+
+//sourcery: AutoMockable
 public protocol SNPPresenterProtocol: class {
     func handle(error: SNPError?)
     func handle(error: SNPError?, dismiss: (() -> Void)?)
