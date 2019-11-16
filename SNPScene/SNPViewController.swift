@@ -21,13 +21,13 @@ open class SNPViewController: UIViewController, LifetimeTrackable {
     // MARK: - Methods
     override public init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-
+        modalPresentationStyle = .fullScreen
         trackLifetime()
     }
 
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-
+        modalPresentationStyle = .fullScreen
         trackLifetime()
     }
 
